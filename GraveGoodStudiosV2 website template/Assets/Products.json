@@ -26,12 +26,14 @@
     "image": ["images/GC - DERMAL JEWELLERY/3MM DERMAL TOP ΓÇô CLEAR.png"],
     "category": "Dermal",
     "description": "Clear 3mm dermal top. High shine crystal."
+    "stock": 10
   },
   {
     "id": "dermal-3mm-skin-diver-clear",
-    "title": "3MM Dermal Skin Diver | Clear",
+    "slug": "3mm Dermal Diver"
+    "name": "3MM Dermal Skin Diver | Clear",
     "price": 160,
-    "image": "images/GC - DERMAL JEWELLERY/3MM SKIN DIVER ΓÇô CLEAR.png",
+    "image": ["images/GC - DERMAL JEWELLERY/3MM SKIN DIVER ΓÇô CLEAR.png"],
     "category": "Dermal",
     "description": "3mm skin diver dermal top, clear."
   },
