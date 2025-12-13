@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Graveyard Studios</title>
+    <link rel="stylesheet" href="Checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+     <!-- Cart Preview Dropdown -->
+    <div class="cart-preview" id="cartPreview">
+        <div class="cart-preview-header">
+            <h3>Your Cart</h3>
+            <button class="close-preview" id="closePreview">×</button>
+        </div>
+        <div class="cart-preview-items" id="cartPreviewItems">
+            <!-- Dynamic cart items -->
+        </div>
+        <div class="cart-preview-footer">
+            <div class="cart-subtotal">
+                <span>Subtotal:</span>
+                <span id="cartSubtotal">R0.00</span>
+            </div>
+            <a href="checkout.html" class="btn-checkout">View Cart & Checkout</a>
+        </div>
+    </div>
+    <!-- Checkout Container -->
+    <div class="checkout-container">
+        
+        <!-- Header -->
+        <header class="checkout-header">
+            <a href="Home.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Shop
+            </a>
+            <h1 class="checkout-title">
+                <span class="title-script">Secure</span>
+                <span class="title-bold">CHECKOUT</span>
+            </h1>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="checkout-grid">
+            
+            <!-- Left Column: Cart Items + Customer Info -->
+            <div class="checkout-main">
+                
+                <!-- Cart Items Section -->
+                <section class="cart-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-shopping-bag"></i>
+                        Your Cart
+                    </h2>
+                    
+                    <div class="cart-items" id="cartItems">
+                        <!-- Cart Item 1 -->
+                        <div class="cart-item" data-price="59.99" data-id="1">
+                            <div class="item-image">
+                                <img src="images/product images/CircularHorseshoeBarbell6.jpg" alt="Circular Horseshoe Barbell">
+                            </div>
+                            <div class="item-details">
+                                <h3 class="item-name">Circular Horseshoe Barbell</h3>
+                                <p class="item-variation">Size: 16G • Color: Silver</p>
+                                <div class="item-actions">
+                                    <div class="quantity-selector">
+                                        <button class="qty-btn minus" data-id="1">-</button>
+                                        <input type="number" class="qty-input" value="1" min="1" max="10" data-id="1">
+                                        <button class="qty-btn plus" data-id="1">+</button>
+                                    </div>
+                                    <button class="remove-btn" data-id="1">
+                                        <i class="fas fa-trash-alt"></i> Remove
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <span class="price-label">Price</span>
+                                <span class="price-value">R<span class="item-total">59.99</span></span>
+                            </div>
+                        </div>
+
+                        <!-- Cart Item 2 -->
+                        <div class="cart-item" data-price="84.99" data-id="2">
+                            <div class="item-image">
+                                <img src="images/product images/CURVEDBANANA BARBELL3.jpg" alt="Curved Banana Barbell">
+                            </div>
+                            <div class="item-details">
+                                <h3 class="item-name">Curved Banana Barbell</h3>
+                                <p class="item-variation">Size: 14G • Color: Black</p>
+                                <div class="item-actions">
+                                    <div class="quantity-selector">
+                                        <button class="qty-btn minus" data-id="2">-</button>
+                                        <input type="number" class="qty-input" value="2" min="1" max="10" data-id="2">
+                                        <button class="qty-btn plus" data-id="2">+</button>
+                                    </div>
+                                    <button class="remove-btn" data-id="2">
+                                        <i class="fas fa-trash-alt"></i> Remove
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <span class="price-label">Price</span>
+                                <span class="price-value">R<span class="item-total">169.98</span></span>
+                            </div>
+                        </div>
+
+                        <!-- Cart Item 3 -->
+                        <div class="cart-item" data-price="45.99" data-id="3">
+                            <div class="item-image">
+                                <img src="images/product images/NoseStraight1.jpg" alt="Nose Straight">
+                            </div>
+                            <div class="item-details">
+                                <h3 class="item-name">Nose Straight</h3>
+                                <p class="item-variation">Size: 20G • Color: Gold</p>
+                                <div class="item-actions">
+                                    <div class="quantity-selector">
+                                        <button class="qty-btn minus" data-id="3">-</button>
+                                        <input type="number" class="qty-input" value="1" min="1" max="10" data-id="3">
+                                        <button class="qty-btn plus" data-id="3">+</button>
+                                    </div>
+                                    <button class="remove-btn" data-id="3">
+                                        <i class="fas fa-trash-alt"></i> Remove
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <span class="price-label">Price</span>
+                                <span class="price-value">R<span class="item-total">45.99</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Customer Info Form -->
+                <section class="customer-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-user"></i>
+                        Delivery Information
+                    </h2>
+                    
+                    <form class="customer-form" id="customerForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+27 82 123 4567">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Delivery Address *</label>
+                            <textarea id="address" name="address" rows="3" required placeholder="Street address, unit/apartment, city, postal code"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="notes">Order Notes (Optional)</label>
+                            <textarea id="notes" name="notes" rows="2" placeholder="Any special instructions or delivery preferences"></textarea>
+                        </div>
+                    </form>
+                </section>
+
+            </div>
+
+            <!-- Right Column: Order Summary (Sticky) -->
+            <aside class="checkout-sidebar">
+                
+                <!-- Order Summary Box -->
+                <div class="order-summary">
+                    <h2 class="summary-title">Order Summary</h2>
+                    
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span class="summary-value">R<span id="subtotalValue">275.96</span></span>
+                    </div>
+                    
+                    <div class="summary-row">
+                        <span>Delivery Fee</span>
+                        <span class="summary-value">R<span id="deliveryFee">50.00</span></span>
+                    </div>
+                    
+                    <div class="summary-row">
+                        <span>VAT (15%)</span>
+                        <span class="summary-value">R<span id="vatValue">48.89</span></span>
+                    </div>
+                    
+                    <div class="summary-divider"></div>
+                    
+                    <div class="summary-row total-row">
+                        <span>Total</span>
+                        <span class="summary-total">R<span id="totalValue">374.85</span></span>
+                    </div>
+
+                    <!-- Payment Methods -->
+                    <div class="payment-methods">
+                        <h3 class="payment-title">Payment Method</h3>
+                        
+                        <button class="payment-btn apple-pay">
+                            <i class="fab fa-apple"></i>
+                            Pay with Apple Pay
+                        </button>
+                        
+                        <button class="payment-btn google-pay">
+                            <i class="fab fa-google"></i>
+                            Pay with Google Pay
+                        </button>
+                        
+                        <div class="or-divider">
+                            <span>or</span>
+                        </div>
+                        
+                        <button class="payment-btn checkout-btn" id="checkoutBtn">
+                            <i class="fas fa-lock"></i>
+                            Proceed to Payment
+                        </button>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="trust-badges">
+                        <div class="badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Secure Payment</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-truck"></i>
+                            <span>Free Returns</span>
+                        </div>
+                    </div>
+                </div>
+
+            </aside>
+
+        </div>
+
+    </div>
+
+    <script src="Checkout.js"></script>
+</body>
+</html>

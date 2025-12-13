@@ -1,0 +1,552 @@
+{
+  "products": [
+    {
+      "id": "2mm-dermal-top-anchor-set-crystal",
+      "name": "2mm Dermal Top Anchor Set Crystal",
+      "price": 150,
+      "images": [
+        "Assets/images/GC - DERMAL JEWELLERY/2mm-dermal-top-anchor-set-crystal-1.jpg",
+        "Assets/images/GC - DERMAL JEWELLERY/2mm-dermal-top-anchor-set-crystal-2.jpg"
+      ],
+      "stock": 10
+    },
+  {
+    "id": "3-4-5mm-dermal-top-black",
+    "slug": "3-4-5mm-dermal-top-black",
+    "name": "Black Dermal Top",
+    "price": 0,
+    "description": "Black dermal top available in 3, 4 and 5mm.",
+    "images": [],
+    "stock": 10
+  },
+  {
+    "id": "dermal-3mm-clear",
+    "title": "3MM Dermal Top | Clear",
+    "price": 150,
+    "image": "images/GC - DERMAL JEWELLERY/3MM DERMAL TOP ΓÇô CLEAR.png",
+    "category": "Dermal",
+    "description": "Clear 3mm dermal top. High shine crystal."
+  },
+  {
+    "id": "dermal-3mm-skin-diver-clear",
+    "title": "3MM Dermal Skin Diver | Clear",
+    "price": 160,
+    "image": "images/GC - DERMAL JEWELLERY/3MM SKIN DIVER ΓÇô CLEAR.png",
+    "category": "Dermal",
+    "description": "3mm skin diver dermal top, clear."
+  },
+  {
+    "id": "dermal-4mm-light-sapphire",
+    "title": "4MM Dermal Top | Light Sapphire",
+    "price": 140,
+    "image": "images/GC - DERMAL JEWELLERY/4MM DERMAL TOP ΓÇô LIGHT SAPPHIRE.png",
+    "category": "Dermal",
+    "description": "4mm dermal top in light sapphire."
+  },
+  {
+    "id": "nose-0.8x8-sterling-double-ring",
+    "title": "0.8 x 8 Nose Ring | Sterling Silver | Double Ring Design",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/0.8 x 8 NOSE RING ΓÇô STERLING SILVER ΓÇô DOUBLE RING DESIGN.png",
+    "category": "Nose",
+    "description": "0.8 x 8 sterling silver double ring nose ring."
+  },
+  {
+    "id": "nose-0.8mm-pigtail-gold-cz",
+    "title": "0.8MM Pigtail | Gold | Cubic Zirconia (1.5MM Crystal)",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/0.8MM PIGTAIL ΓÇô GOLD ΓÇô CUBIC ZIRCONIA (1.5MM CRYSTAL).png",
+    "category": "Nose",
+    "description": "Gold pigtail nose jewellery with cubic zirconia."
+  },
+  {
+    "id": "nose-0.8mm-pigtail-gold-jewelled",
+    "title": "0.8MM Pigtail | Gold | Jewelled",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/0.8MM PIGTAIL ΓÇô GOLD ΓÇô JEWELLED.png",
+    "category": "Nose",
+    "description": "Gold jewelled pigtail nose jewellery."
+  },
+  {
+    "id": "nose-0.8mm-steel-plain-pigtail",
+    "title": "0.8MM Pigtail | Plain Steel",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/0.8MM STEEL PLAIN PIGTAIL.png",
+    "category": "Nose",
+    "description": "Plain steel pigtail nose jewellery."
+  },
+  {
+    "id": "nose-10mm-gold-crystal",
+    "title": "10MM Nose Jewellery | Nose Ring | Gold | Crystal",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/10MM GOLD CRYSTAL NOSE RING.png",
+    "category": "Nose",
+    "description": "10mm gold nose ring with crystal."
+  },
+  {
+    "id": "nose-10mm-steel-crystal",
+    "title": "10MM Nose Jewellery | Nose Ring | Steel | Crystal",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/10MM STEEL CRYSTAL NOSE RING.png",
+    "category": "Nose",
+    "description": "10mm steel nose ring with crystal."
+  },
+  {
+    "id": "nose-1mm-pigtail-steel-light-sapphire",
+    "title": "1MM Pigtail | Steel | Light Sapphire Blue",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/1MM PIGTAIL ΓÇô STEEL ΓÇô LIGHT SAPPHIRE BLUE.png",
+    "category": "Nose",
+    "description": "Steel pigtail with light sapphire blue stone."
+  },
+  {
+    "id": "nose-3-stone-sterling-silver",
+    "title": "3-Stone Sterling Silver Nose Ring",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/3-STONE STERLING SILVER NOSE RING.png",
+    "category": "Nose",
+    "description": "Three-stone sterling silver nose ring."
+  },
+  {
+    "id": "nose-6mm-black-crystal",
+    "title": "6MM Nose Jewellery | Black Crystal | Silver",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/6MM BLACK CRYSTAL NOSE RING.png",
+    "category": "Nose",
+    "description": "6mm black crystal nose ring, silver."
+  },
+  {
+    "id": "nose-6mm-sterling-clip-in",
+    "title": "6MM Sterling Silver Clip-in Nose Ring",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/6MM STERLING SILVER CLIP IN NOSE RING.png",
+    "category": "Nose",
+    "description": "6mm clip-in nose ring in sterling silver."
+  },
+  {
+    "id": "nose-8mm-gold",
+    "title": "8MM Nose Jewellery | Nose Ring | Gold",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/8MM GOLD NOSE RING.png",
+    "category": "Nose",
+    "description": "8mm gold nose ring."
+  },
+  {
+    "id": "nose-8mm-silver-twisted",
+    "title": "8MM Nose Jewellery | Silver Twisted",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/8MM SILVER TWISTED NOSE RING.png",
+    "category": "Nose",
+    "description": "8mm twisted silver nose ring."
+  },
+  {
+    "id": "nose-8mm-flower-gold-coated",
+    "title": "8MM Flower Ring | Silver Gold Coated | Twisted Crystal",
+    "price": 80,
+    "image": "images/GC - NOSE JEWELLERY/8MM STERLING SILVER GOLD COATED TWIST CRYSTAL FLOWER RING.png",
+    "category": "Nose",
+    "description": "Flower-shaped nose ring with crystals, gold coated."
+  },
+  {
+    "id": "belly-1.6x10x5.5-slave-ring-jewelled",
+    "title": "1.6 x 10 x 5.5 Belly Bar | Slave Ring | Jewelled Top",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/1.6 X 10 X 5_5 BELLY BAR ΓÇô SLAVE RING ΓÇô JEWELLED TOP.png",
+    "category": "Belly",
+    "description": "Belly bar with jewelled top and slave ring."
+  },
+  {
+    "id": "belly-1.6x10x5_5-slave-ring",
+    "title": "1.6 x 10 x 5.5 Belly Bar | Slave Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/1.6 X 10 X 5_5 BELLY BAR ΓÇô SLAVE RING.png",
+    "category": "Belly",
+    "description": "Classic 1.6 x 10 x 5.5 belly bar slave ring."
+  },
+  {
+    "id": "belly-1.6x10x5_8-fuchsia",
+    "title": "1.6 x 10 x 5.8 Belly Bar | Steel | Fuchsia",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/1.6 X 10 X 5_8 ΓÇô BELLY BAR ΓÇô STEEL ΓÇô FUCHSIA.png",
+    "category": "Belly",
+    "description": "Steel belly bar in fuchsia."
+  },
+  {
+    "id": "belly-1.6x10x5_8-iridescent",
+    "title": "1.6 x 10 x 5.8 Belly Bar | Steel | Iridescent",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/1.6 X 10 X 5_8 ΓÇô BELLY BAR ΓÇô STEEL ΓÇô IRIDESCENT.png",
+    "category": "Belly",
+    "description": "Iridescent belly bar, steel."
+  },
+  {
+    "id": "belly-1.6x12-hinged-crescent-titanium-gold-pvd",
+    "title": "1.6 x 12 Belly Bar | Hinged Crescent | Titanium | Gold PVD",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/1.6 X 12 BELLY BAR ΓÇô HINGED CRESCENT ΓÇô TITANIUM ΓÇô GOLD PVD.png",
+    "category": "Belly",
+    "description": "Hinged crescent belly bar in titanium with gold PVD."
+  },
+  {
+    "id": "belly-1.6x12-crystal-ice",
+    "title": "1.6 x 12 Belly Bar | Crystal (Ice)",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/1.6 X 12 X (10_5 & 8_5)  BELLY BAR ΓÇô CRYSTAL ΓÇ£ICEΓÇ¥.png",
+    "category": "Belly",
+    "description": "Crystal 'ice' belly bar."
+  },
+  {
+    "id": "belly-1.6x8x5_8-double-jewelled-gold",
+    "title": "1.6 x 8 x 5.8 Belly Bar | Double Jewelled | Gold",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/1.6 X 8 X 5_8 ΓÇô BELLY BAR ΓÇô GOLD ΓÇô DOUBLE JEWELLED (PVD).png",
+    "category": "Belly",
+    "description": "Double jewelled gold belly bar."
+  },
+  {
+    "id": "belly-blue-squared-jewelled",
+    "title": "Blue Jewelled Square Design Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/BLUE JEWELLED SQUARE DESIGN BELLY RING.png",
+    "category": "Belly",
+    "description": "Blue jewelled square design belly ring."
+  },
+  {
+    "id": "belly-brown-beige-round-jewelled",
+    "title": "Brown/Beige Round Jewelled Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/BROWN_BEIGE ROUND JEWELLED BELLY RING.png",
+    "category": "Belly",
+    "description": "Brown/beige round jewelled belly ring."
+  },
+  {
+    "id": "belly-cross-badge",
+    "title": "Cross Badge Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/CROSS BADGE BELLY RING.png",
+    "category": "Belly",
+    "description": "Cross badge belly ring."
+  },
+  {
+    "id": "belly-dainty-dangling-leaf",
+    "title": "Dainty Dangling Leaf Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/DAINTY DANGLING LEAF BELLY RING.png",
+    "category": "Belly",
+    "description": "Dainty dangling leaf belly ring."
+  },
+  {
+    "id": "belly-double-heart-dangling",
+    "title": "Double Heart Dangling Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/DOUBLE HEART DANGLING BELLY RING.png",
+    "category": "Belly",
+    "description": "Double heart dangling belly ring."
+  },
+  {
+    "id": "belly-double-jewelled-cross",
+    "title": "Double Jewelled Cross Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/DOUBLE JEWELLED CROSS BELLY RING.png",
+    "category": "Belly",
+    "description": "Double jewelled cross belly ring."
+  },
+  {
+    "id": "belly-handcuffs",
+    "title": "Handcuffs Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/HANDCUFFS BELLY RING.png",
+    "category": "Belly",
+    "description": "Handcuffs design belly ring."
+  },
+  {
+    "id": "belly-heart-lock",
+    "title": "Heart Lock Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/HEART LOCK BELLY RING.png",
+    "category": "Belly",
+    "description": "Heart lock belly ring."
+  },
+  {
+    "id": "belly-marijuana-leaf",
+    "title": "Marijuana Leaf Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/MARIJUANA LEAF BELLY RING.png",
+    "category": "Belly",
+    "description": "Marijuana leaf design belly ring."
+  },
+  {
+    "id": "belly-tinkerbell",
+    "title": "Tinkerbell Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/TINKERBELL BELLY RING.png",
+    "category": "Belly",
+    "description": "Tinkerbell themed belly ring."
+  },
+  {
+    "id": "belly-triple-sterling-spider",
+    "title": "Triple Sterling Silver Spider Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/TRIPLE STERLING SILVER SPIDER BELLY RING.png",
+    "category": "Belly",
+    "description": "Triple sterling silver spider belly ring."
+  },
+  {
+    "id": "belly-zip",
+    "title": "Zip Belly Ring",
+    "price": 80,
+    "image": "images/GC JEWELLERY - BELLY/ZIP BELLY RING.png",
+    "category": "Belly",
+    "description": "Zip style belly ring."
+  },
+  {
+    "id": "nipple-1.2x10-circular-screw",
+    "title": "Nipple Jewellery | 1.2 x 10 Circular Bar | Screw",
+    "price": 120,
+    "image": "images/GC - NIPPLE JEWELLERY/1.2 x 10 CIRCULAR BAR ΓÇô SCREW.png",
+    "category": "Nipple",
+    "description": "1.2 x 10 circular nipple bar with screw."
+  },
+  {
+    "id": "nipple-1.6x14-straight-pistol",
+    "title": "Nipple Jewellery | 1.6 x 14 Straight Bar | Pistol",
+    "price": 160,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 STRAIGHT BAR ΓÇô PISTOL.png",
+    "category": "Nipple",
+    "description": "1.6 x 14 straight bar with pistol design."
+  },
+  {
+    "id": "nipple-1.6x14-straight-silver-guns",
+    "title": "Nipple Jewellery | 1.6 x 14 Straight Bar | Silver Guns",
+    "price": 160,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 STRAIGHT BAR ΓÇô SILVER GUNS.png",
+    "category": "Nipple",
+    "description": "Silver guns design on straight bar."
+  },
+  {
+    "id": "nipple-1.6x14-aquamarine-arrowhead",
+    "title": "Nipple Jewellery | 1.6 x 14 Straight Bar | Aquamarine Arrowhead",
+    "price": 169,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 10 STRAIGHT BAR ΓÇô AQUAMARINE ARROWHEAD.png",
+    "category": "Nipple",
+    "description": "Aquamarine arrowhead on straight bar."
+  },
+  {
+    "id": "nipple-1.6x14-heart-lock",
+    "title": "Nipple Jewellery | 1.6 x 14 Straight Bar | Heart Lock",
+    "price": 159,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 10 STRAIGHT BAR ΓÇô HEART LOCK.png",
+    "category": "Nipple",
+    "description": "Heart lock straight bar nipple jewellery."
+  },
+  {
+    "id": "nipple-1.6x14-tuscan",
+    "title": "Nipple Jewellery | 1.6 x 14 Straight Bar | Tuscan",
+    "price": 159,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 11 STRAIGHT BAR ΓÇô TUSCAN.png",
+    "category": "Nipple",
+    "description": "Tuscan design straight bar."
+  },
+  {
+    "id": "nipple-1.6x14-gold-crystal",
+    "title": "Nipple Jewellery | 1.6 x 14 x 5 Straight Bar | Gold Crystal",
+    "price": 189,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 5 STRAIGHT BAR ΓÇô GOLD ΓÇô CRYSTAL.png",
+    "category": "Nipple",
+    "description": "Gold bar with crystal studs."
+  },
+  {
+    "id": "nipple-1.6x14-steel-clear",
+    "title": "Nipple Jewellery | 1.6 x 14 x 5 Straight Bar | Steel Clear",
+    "price": 189,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 5 STRAIGHT BAR ΓÇô STEEL ΓÇô CLEAR.png",
+    "category": "Nipple",
+    "description": "Steel straight bar with clear crystal."
+  },
+  {
+    "id": "nipple-1.6x14-steel-pink",
+    "title": "Nipple Jewellery | 1.6 x 14 x 5 Straight Bar | Steel Pink",
+    "price": 199,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 5 STRAIGHT BAR ΓÇô STEEL ΓÇô PINK.png",
+    "category": "Nipple",
+    "description": "Steel straight bar with pink crystal."
+  },
+  {
+    "id": "nipple-1.6x14-steel",
+    "title": "Nipple Jewellery | 1.6 x 14 x 5 Straight Bar | Steel",
+    "price": 199,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 5 STRAIGHT BAR ΓÇô STEEL.png",
+    "category": "Nipple",
+    "description": "Plain steel straight bar."
+  },
+  {
+    "id": "nipple-1.6x14-mandala",
+    "title": "Nipple Jewellery | 1.6 x 14 x 8 Straight Bar | Mandala",
+    "price": 199,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 8 STRAIGHT BAR ΓÇô MANDALA.png",
+    "category": "Nipple",
+    "description": "Mandala design straight bar."
+  },
+  {
+    "id": "nipple-1.6x14-round",
+    "title": "Nipple Jewellery | 1.6 x 14 x 8 Straight Bar | Round",
+    "price": 199,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 14 X 8 STRAIGHT BAR ΓÇô ROUND.png",
+    "category": "Nipple",
+    "description": "Round design straight bar."
+  },
+  {
+    "id": "nipple-1.6x16-gold",
+    "title": "Nipple Jewellery | 1.6 x 16 x 5 Straight Bar | Gold",
+    "price": 199,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 16 X 5 STRAIGHT BAR ΓÇô GOLD.png",
+    "category": "Nipple",
+    "description": "Gold straight bar."
+  },
+  {
+    "id": "nipple-1.6x16-steel",
+    "title": "Nipple Jewellery | 1.6 x 16 x 5 Straight Bar | Steel",
+    "price": 199,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 16 X 5 STRAIGHT BAR ΓÇô STEEL.png",
+    "category": "Nipple",
+    "description": "Steel straight bar."
+  },
+  {
+    "id": "nipple-1.6x16x6-steel-crystal-push-in",
+    "title": "Nipple Jewellery | 1.6 x 16 x 6 Straight Bar | Steel Crystal (Push In)",
+    "price": 199,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 x 16 x 6 STRAIGHT BAR ΓÇô STEEL ΓÇô CRYSTAL (PUSH IN).png",
+    "category": "Nipple",
+    "description": "Steel straight bar with push-in crystal."
+  },
+  {
+    "id": "nipple-1.6x16x8-skull-crystal-eyes",
+    "title": "Nipple Jewellery | 1.6 x 16 x 8 Straight Bar | Skull | Crystal Eyes (Hyacinth)",
+    "price": 199,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 16 X 8 STRAIGHT BAR ΓÇô SKULL ΓÇô CRYSTAL EYES (HYACINTH).png",
+    "category": "Nipple",
+    "description": "Skull bar with hyacinth crystal eyes."
+  },
+  {
+    "id": "nipple-1.6x18-love",
+    "title": "Nipple Jewellery | 1.6 x 18 Straight Bar | 'LOVE' Nipple",
+    "price": 189,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 18 STRAIGHT BAR ΓÇô ΓÇ£LOVEΓÇ¥ NIPPLE.png",
+    "category": "Nipple",
+    "description": "Love-themed nipple bar."
+  },
+  {
+    "id": "nipple-1.6x20-crystal-studded-shield",
+    "title": "Nipple Jewellery | 1.6 x 18 Straight Bar | Crystal Studded Shield",
+    "price": 179,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 x 20 x 5 STRAIGHT BAR ΓÇô CRYSTAL STUDDED SHIELD.png",
+    "category": "Nipple",
+    "description": "Crystal studded shield nipple bar."
+  },
+  {
+    "id": "nipple-1.6x21-double-ring-shield",
+    "title": "Nipple Jewellery | 1.6 x 18 Straight Bar | Double Ring Shield",
+    "price": 159,
+    "image": "images/GC - NIPPLE JEWELLERY/1.6 X 21 X 5 STRAIGHT BAR ΓÇô DOUBLE RING SHIELD.png",
+    "category": "Nipple",
+    "description": "Double ring shield nipple jewellery."
+  },
+  {
+    "id": "nipple-blue-stone-madala-1.6x14",
+    "title": "Blue Stone Madala Nipple Bar | 1.6 x 14",
+    "price": 159,
+    "image": "images/GC - NIPPLE JEWELLERY/BLUE STONE MADALA NIPPLE BAR 1.6 X 14.png",
+    "category": "Nipple",
+    "description": "Blue stone madala nipple bar."
+  },
+  {
+    "id": "nipple-blue-stone-round-badge-1.6x14",
+    "title": "Blue Stone Round Badge Nipple Bar | 1.6 x 14",
+    "price": 159,
+    "image": "images/GC - NIPPLE JEWELLERY/BLUE STONE ROUND BADGE NIPPLE BAR 1.6 X 14.png",
+    "category": "Nipple",
+    "description": "Blue stone round badge nipple bar."
+  },
+  {
+    "id": "industrial-1.2x38-6-stone-flower",
+    "title": "Industrial Jewellery | 1.2 x 38 x 5 Industrial Bar | Steel | 6 Stone Flower",
+    "price": 159,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.2 X 38 X 5 INDUSTRIAL BAR ΓÇô STEEL ΓÇô 6 STONE FLOWER.png",
+    "category": "Industrial",
+    "description": "Industrial bar with 6 stone flower design."
+  },
+  {
+    "id": "industrial-1.6x35-spiral-glitter-ball",
+    "title": "Industrial Jewellery | 1.6 x 35 x 4 Industrial Bar | Steel | Spiral w/ Glitter Ball",
+    "price": 169,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 35 X 4 INDUSTRIAL BAR ΓÇô STEEL ΓÇô SPIRAL W_GLITTER BALL.png",
+    "category": "Industrial",
+    "description": "Spiral industrial bar with glitter ball."
+  },
+  {
+    "id": "industrial-1.6x35-arrow",
+    "title": "Industrial Jewellery | 1.6 x 35 x 5 Industrial Bar | Steel | Arrow",
+    "price": 189,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 35 X 5 INDUSTRIAL BAR ΓÇô STEEL ΓÇô ARROW.png",
+    "category": "Industrial",
+    "description": "Arrow design industrial bar."
+  },
+  {
+    "id": "industrial-1.6x35-zigzag-glitter",
+    "title": "Industrial Jewellery | 1.6 x 35 x 5 Industrial Bar | Zig Zag w/ Glitter Ball",
+    "price": 189,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 35 X 5 INDUSTRIAL BAR ΓÇô STEEL ΓÇô ZIG ZAG W_GLITTER BALL.png",
+    "category": "Industrial",
+    "description": "Zig zag industrial bar with glitter ball."
+  },
+  {
+    "id": "industrial-1.6x35-zigzag",
+    "title": "Industrial Jewellery | 1.6 x 35 x 5 Industrial Bar | Steel | Zig Zag",
+    "price": 189,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 35 X 5 INDUSTRIAL BAR ΓÇô STEEL ΓÇô ZIG ZAG.png",
+    "category": "Industrial",
+    "description": "Zig zag industrial bar."
+  },
+  {
+    "id": "industrial-1.6x35-straight-black",
+    "title": "Industrial Jewellery | 1.6 x 35 x 5 Straight Bar | Black",
+    "price": 189,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 35 X 5 STRAIGHT BAR ΓÇô BLACK.png",
+    "category": "Industrial",
+    "description": "Black straight industrial bar."
+  },
+  {
+    "id": "industrial-1.6x35-straight-gold",
+    "title": "Industrial Jewellery | 1.6 x 35 x 5 Straight Bar | Gold",
+    "price": 189,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 35 x 5 STRAIGHT BAR ΓÇô GOLD.png",
+    "category": "Industrial",
+    "description": "Gold straight industrial bar."
+  },
+  {
+    "id": "industrial-1.6x40-peace",
+    "title": "Industrial Jewellery | 1.6 x 40 x 5 Industrial Bar | Steel | Jewelled Peace",
+    "price": 189,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 40 X 5 INDUSTRIAL BAR ΓÇô STEEL ΓÇô JEWELLED PEACE SIGN.png",
+    "category": "Industrial",
+    "description": "Jewelled peace sign industrial bar."
+  },
+  {
+    "id": "industrial-1.6x40-snake-1",
+    "title": "Industrial Jewellery | 1.6 x 40 x 5 Industrial Bar | Steel | Snake",
+    "price": 199,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 40 X 5 INDUSTRIAL BAR ΓÇô STEEL ΓÇô SNAKE.png",
+    "category": "Industrial",
+    "description": "Snake design industrial bar."
+  },
+  {
+    "id": "industrial-1.6x40-snake-2",
+    "title": "Industrial Jewellery | 1.6 x 40 x 5 Industrial Bar | Steel | Snake (duplicate)",
+    "price": 199,
+    "image": "images/GC - INDUSTRIAL JEWELERY/1.6 X 40 X 5 INDUSTRIAL BAR ΓÇô STEEL ΓÇô SNAKE.png",
+    "category": "Industrial",
+    "description": "Duplicate snake industrial bar entry (same image)."
+  }
+]
+
+}
