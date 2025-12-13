@@ -5,9 +5,8 @@
       "name": "2mm Dermal Top Anchor Set Crystal",
       "price": 150,
       "images": [
-        "Assets/images/GC - DERMAL JEWELLERY/2mm-dermal-top-anchor-set-crystal-1.jpg",
-        "Assets/images/GC - DERMAL JEWELLERY/2mm-dermal-top-anchor-set-crystal-2.jpg"
-      ],
+        "images/GC - DERMAL JEWELLERY/2mm-dermal-top-anchor-set-crystal-1.jpg",
+        ],
       "stock": 10
     },
   {
@@ -21,9 +20,10 @@
   },
   {
     "id": "dermal-3mm-clear",
-    "title": "3MM Dermal Top | Clear",
+    "slug": "3MM Dermal Top"
+    "name": "3MM Dermal Top | Clear",
     "price": 150,
-    "image": "images/GC - DERMAL JEWELLERY/3MM DERMAL TOP ΓÇô CLEAR.png",
+    "image": ["images/GC - DERMAL JEWELLERY/3MM DERMAL TOP ΓÇô CLEAR.png"],
     "category": "Dermal",
     "description": "Clear 3mm dermal top. High shine crystal."
   },
