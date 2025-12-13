@@ -36,14 +36,17 @@
     "image": ["images/GC - DERMAL JEWELLERY/3MM SKIN DIVER ΓÇô CLEAR.png"],
     "category": "Dermal",
     "description": "3mm skin diver dermal top, clear."
+    "atock": 15
   },
   {
     "id": "dermal-4mm-light-sapphire",
-    "title": "4MM Dermal Top | Light Sapphire",
+    "slug": "4mm-DERMAL-TOP-LIGHT-SAPHIET"
+    "name": "4MM Dermal Top | Light Sapphire",
     "price": 140,
     "image": "images/GC - DERMAL JEWELLERY/4MM DERMAL TOP ΓÇô LIGHT SAPPHIRE.png",
     "category": "Dermal",
     "description": "4mm dermal top in light sapphire."
+    "stock": 10
   },
   {
     "id": "nose-0.8x8-sterling-double-ring",
