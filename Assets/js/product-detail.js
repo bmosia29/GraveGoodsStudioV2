@@ -73,14 +73,19 @@ function renderProduct() {
 
   // Images: ensure array
   product.images = Array.isArray(product.images) && product.images.length ? product.images : (product.image ? [product.image] : ['']);
-  document.getElementById('mainImg').src = product.images[0] || '';
+  const mainImgEl = document.getElementById('mainImg');
+  // set main image with fallback
+  if (mainImgEl) {
+    mainImgEl.src = product.images[0] || 'Assets/images/image.jpeg';
+    mainImgEl.onerror = () => { mainImgEl.src = 'Assets/images/image.jpeg'; };
+  }
 
   // Thumbnails
   const thumbsEl = document.getElementById('thumbs');
   if (thumbsEl) {
     thumbsEl.innerHTML = product.images.map((img, i) => `
       <div class="thumbnail ${i === 0 ? 'active' : ''}" data-idx="${i}">
-        <img src="${escapeHtml(img)}" alt="">
+        <img src="${escapeHtml(img)}" alt="" onerror="this.src='Assets/images/image.jpeg'">
       </div>
     `).join('');
     // attach handlers
