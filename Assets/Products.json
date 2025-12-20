@@ -398,366 +398,366 @@
                      },
                      {
                          "id":  "1-6-x-10-x-5-5-belly-bar-steel-iridescent",
-                         "name":  "1 6 X 10 X 5 5 BELLY BAR STEEL IRIDESCENT",
-                         "description":  "Product description coming soon.",
+                         "name":  "1.6 X 10 X 5.5 BELLY BAR | STEEL IRIDESCENT",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC JEWELLERY - BELLY/1-6-X-10-X-5-8-BELLY-BAR-STEEL-IRIDESCENT.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Belly",
+                         "description":  "1.6 x 10 x 5.5 belly bar made from surgical steel with an iridescent finish. Durable and comfortable for everyday wear.",
+                         "stock":  10
                      },
                      {
                          "id":  "belly-ring-zip-belly-ring",
-                         "name":  "BELLY RING ZIP BELLY RING",
-                         "description":  "Product description coming soon.",
+                         "name":  "BELLY RING | ZIP DESIGN",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC JEWELLERY - BELLY/BLUE-JEWELLED-SQUARE-DESIGN-BELLY-RING.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Belly",
+                         "description":  "Stylish belly ring featuring a unique zip design. Crafted for comfort and long-lasting shine.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-2-x-14-industrial-bar-steel-stone-flower",
-                         "name":  "INDUSTRIAL JEWELLERY 1 2 X 14 INDUSTRIAL BAR STEEL STONE FLOWER",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.2 X 14 | STEEL STONE FLOWER",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "1.2 x 14 industrial bar crafted from surgical steel featuring a decorative stone flower design.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-2-x-35-x-4-industrial-bar-steel-arrow",
-                         "name":  "INDUSTRIAL JEWELLERY 1 2 X 35 X 4 INDUSTRIAL BAR STEEL ARROW",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.2 X 35 X 4 | STEEL ARROW",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-STEEL-ARROW.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Industrial bar with arrow design made from surgical steel. Strong, stylish, and suitable for daily wear.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-2-x-35-x-4-industrial-bar-steel-spiral-w-glitter-ball",
-                         "name":  "INDUSTRIAL JEWELLERY 1 2 X 35 X 4 INDUSTRIAL BAR STEEL SPIRAL W GLITTER BALL",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.2 X 35 X 4 | SPIRAL GLITTER BALL",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-4-INDUSTRIAL-BAR-STEEL-SPIRAL-W-GLITTER-BALL.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Steel industrial bar featuring a spiral design with glitter ball accents.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-2-x-35-x-5-industrial-bar-steel-zig-zag",
-                         "name":  "INDUSTRIAL JEWELLERY 1 2 X 35 X 5 INDUSTRIAL BAR STEEL ZIG ZAG",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.2 X 35 X 5 | ZIG ZAG",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-STEEL-ZIG-ZAG-W-GLITTER-BALL.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Zig-zag style industrial bar made from durable surgical steel.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-2-x-35-x-5-industrial-bar-zig-zag-w-glitter-ball",
-                         "name":  "INDUSTRIAL JEWELLERY 1 2 X 35 X 5 INDUSTRIAL BAR ZIG ZAG W GLITTER BALL",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.2 X 35 X 5 | ZIG ZAG GLITTER BALL",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-STEEL-ZIG-ZAG-W-GLITTER-BALL.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Industrial bar with zig-zag design and glitter ball ends for added shine.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-6-x-35-x-5-straight-bar-black",
-                         "name":  "INDUSTRIAL JEWELLERY 1 6 X 35 X 5 STRAIGHT BAR BLACK",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | STRAIGHT BAR BLACK",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-BLACK-ARROW.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Black straight industrial bar made from coated surgical steel.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-6-x-35-x-5-straight-bar-gold",
-                         "name":  "INDUSTRIAL JEWELLERY 1 6 X 35 X 5 STRAIGHT BAR GOLD",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | STRAIGHT BAR GOLD",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-GOLD-ARROW.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Gold PVD coated straight industrial bar for a premium finish.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-6-x-35-x-5-straight-bar-steel-jewelled-peace",
-                         "name":  "INDUSTRIAL JEWELLERY 1 6 X 35 X 5 STRAIGHT BAR STEEL JEWELLED PEACE",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | JEWELLED PEACE",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-40-X-5-INDUSTRIAL-BAR-STEEL-JEWELLED-PEACE-SIGN.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Steel industrial bar featuring a jewelled peace symbol.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-6-x-35-x-5-straight-bar-steel-snake",
-                         "name":  "INDUSTRIAL JEWELLERY 1 6 X 35 X 5 STRAIGHT BAR STEEL SNAKE",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | STEEL SNAKE",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-40-X-5-INDUSTRIAL-BAR-STEEL-SNAKE.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Snake-themed industrial bar crafted from surgical steel.",
+                         "stock":  10
                      },
                      {
                          "id":  "industrial-jewellery-1-6-x-35-x-5-straight-bar-steel-snake-2",
-                         "name":  "INDUSTRIAL JEWELLERY 1 6 X 35 X 5 STRAIGHT BAR STEEL SNAKE 2",
-                         "description":  "Product description coming soon.",
+                         "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | STEEL SNAKE 2",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Industrial",
+                         "description":  "Alternative snake design industrial bar made from surgical steel.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-2-x-10-circular-bar-screw",
-                         "name":  "NIPPLE JEWELLERY 1 2 X 10 CIRCULAR BAR SCREW",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.2 X 10 | CIRCULAR BAR SCREW",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-2-x-10-CIRCULAR-BAR-SCREW.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Circular bar nipple jewellery with screw ends made from surgical steel.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-straight-bar-aquamarine-arrowhead",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 STRAIGHT BAR AQUAMARINE ARROWHEAD",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 | AQUAMARINE ARROWHEAD",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-10-STRAIGHT-BAR-AQUAMARINE-ARROWHEAD.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Straight bar nipple jewellery featuring aquamarine arrowhead ends.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-straight-bar-blue-stone-madala-nipple-bar",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 STRAIGHT BAR BLUE STONE MADALA NIPPLE BAR",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 | BLUE STONE MANDALA",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/BLUE-STONE-MADALA-NIPPLE-BAR-1-6-X-14.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Mandala-style nipple bar with blue stone detailing.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-straight-bar-blue-stone-round-badge-nipple-bar",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 STRAIGHT BAR BLUE STONE ROUND BADGE NIPPLE BAR",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 | BLUE STONE ROUND BADGE",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/BLUE-STONE-ROUND-BADGE-NIPPLE-BAR-1-6-X-14.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Round badge nipple bar with blue stone accents.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-straight-bar-heart-lock",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 STRAIGHT BAR HEART LOCK",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 | HEART LOCK",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-10-STRAIGHT-BAR-HEART-LOCK.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Heart lock themed nipple bar made from surgical steel.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-straight-bar-pistol",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 STRAIGHT BAR PISTOL",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 | PISTOL",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-STRAIGHT-BAR-PISTOL.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Pistol design nipple bar crafted from surgical steel.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-straight-bar-silver-guns",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 STRAIGHT BAR SILVER GUNS",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 | SILVER GUNS",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-STRAIGHT-BAR-SILVER-GUNS.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Twin silver gun design nipple jewellery with straight bar.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-x-11-straight-bar-tuscan",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 X 11 STRAIGHT BAR TUSCAN",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 11 | TUSCAN",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-11-STRAIGHT-BAR-TUSCAN.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Tuscan inspired straight bar nipple jewellery.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-x-5-straight-bar-gold-crystal",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 X 5 STRAIGHT BAR GOLD CRYSTAL",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 5 | GOLD CRYSTAL",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-GOLD-CRYSTAL.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Gold crystal straight bar nipple jewellery.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-x-5-straight-bar-steel",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 X 5 STRAIGHT BAR STEEL",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 5 | STEEL",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-STEEL-CLEAR.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Classic surgical steel straight bar nipple jewellery.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-x-5-straight-bar-steel-clear",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 X 5 STRAIGHT BAR STEEL CLEAR",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 5 | STEEL CLEAR",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-STEEL-CLEAR.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Clear stone straight bar nipple jewellery made from surgical steel.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-x-5-straight-bar-steel-pink",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 X 5 STRAIGHT BAR STEEL PINK",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 5 | STEEL PINK",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-STEEL-PINK.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Pink stone straight bar nipple jewellery.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-x-8-straight-bar-mandala",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 X 8 STRAIGHT BAR MANDALA",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 8 | MANDALA",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-8-STRAIGHT-BAR-MANDALA.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Mandala design nipple bar with decorative detailing.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-14-x-8-straight-bar-round",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 14 X 8 STRAIGHT BAR ROUND",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 8 | ROUND",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/BLUE-STONE-ROUND-BADGE-NIPPLE-BAR-1-6-X-14.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Round end straight bar nipple jewellery.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-16-x-5-straight-bar-gold",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 16 X 5 STRAIGHT BAR GOLD",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 16 X 5 | GOLD",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-GOLD-CRYSTAL.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Gold PVD straight bar nipple jewellery.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-16-x-5-straight-bar-steel",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 16 X 5 STRAIGHT BAR STEEL",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 16 X 5 | STEEL",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-STEEL-CLEAR.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Surgical steel straight bar nipple jewellery in longer length.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-16-x-6-straight-bar-crystal-eyes-hyacinth",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 16 X 6 STRAIGHT BAR CRYSTAL EYES HYACINTH",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 16 X 6 | CRYSTAL EYES HYACINTH",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-16-X-8-STRAIGHT-BAR-SKULL-CRYSTAL-EYES-HYACINTH.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Crystal eyes nipple bar with hyacinth coloured stones.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-16-x-6-straight-bar-steel-crystal-push-in",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 16 X 6 STRAIGHT BAR STEEL CRYSTAL PUSH IN",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 16 X 6 | CRYSTAL PUSH IN",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-x-16-x-6-STRAIGHT-BAR-STEEL-CRYSTAL-PUSH-IN.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Push-in crystal straight bar nipple jewellery.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-18-straight-bar-crystal-studded-shield",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 18 STRAIGHT BAR CRYSTAL STUDDED SHIELD",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 18 | CRYSTAL STUDDED SHIELD",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-x-20-x-5-STRAIGHT-BAR-CRYSTAL-STUDDED-SHIELD.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Shield design nipple bar with crystal studded detailing.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-18-straight-bar-double-ring-shield",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 18 STRAIGHT BAR DOUBLE RING SHIELD",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 18 | DOUBLE RING SHIELD",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-21-X-5-STRAIGHT-BAR-DOUBLE-RING-SHIELD.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Double ring shield nipple jewellery with straight bar.",
+                         "stock":  10
                      },
                      {
                          "id":  "nipple-jewellery-1-6-x-18-straight-bar-love-nipple",
-                         "name":  "NIPPLE JEWELLERY 1 6 X 18 STRAIGHT BAR LOVE NIPPLE",
-                         "description":  "Product description coming soon.",
+                         "name":  "NIPPLE JEWELLERY | 1.6 X 18 | LOVE",
+                         "price":  80,
                          "images":  [
-                                        "Assets/images/image.jpeg"
+                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-18-STRAIGHT-BAR-LOVE-NIPPLE.png"
                                     ],
-                         "price":  0,
-                         "stock":  0,
-                         "category":  "Other"
+                         "category":  "Nipple",
+                         "description":  "Love themed straight bar nipple jewellery made from surgical steel.",
+                         "stock":  10
                      }
                  ]
 }
