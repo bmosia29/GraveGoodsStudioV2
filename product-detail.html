@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | Graveyard Studios</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        /* Product Detail Page Styles */
+        .product-detail-page {
+            padding: 120px 3rem 80px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .breadcrumb {
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .breadcrumb a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
+        .product-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+        
+        .product-images {
+            position: sticky;
+            top: 100px;
+        }
+        
+        .main-image {
+            width: 100%;
+            aspect-ratio: 1;
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .main-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .thumbnail-gallery {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+        
+        .thumbnail.active {
+            border-color: #000;
+        }
+        
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .product-details h1 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-family: 'Impact', sans-serif;
+            margin-bottom: 10px;
+        }
+        
+        .product-sku {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+        
+        .product-price {
+            font-size: 2.5rem;
+            font-family: 'Brush Script MT', cursive;
+            margin-bottom: 30px;
+        }
+        
+        .product-description {
+            margin-bottom: 40px;
+            line-height: 1.8;
+            color: #444;
+        }
+        
+        .variant-section {
+            margin-bottom: 30px;
+        }
+        
+        .variant-group {
+            margin-bottom: 25px;
+        }
+        
+        .variant-label {
+            display: block;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        
+        .colour-options {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .colour-btn {
+            padding: 10px 20px;
+            border: 2px solid #e0e0e0;
+            background: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .colour-btn.selected {
+            border-color: #000;
+            background: #000;
+            color: #fff;
+        }
+        
+        .size-select {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: inherit;
+            background: #fff;
+        }
+        
+        .quantity-controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .qty-selector {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        
+        .qty-btn {
+            width: 40px;
+            height: 40px;
+            border: none;
+            background: #f5f5f5;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s;
+        }
+        
+        .qty-btn:hover {
+            background: #000;
+            color: #fff;
+        }
+        
+        .qty-input {
+            width: 60px;
+            border: none;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .stock-status {
+            font-size: 0.95rem;
+            color: #28a745;
+            font-weight: 600;
+        }
+        
+        .stock-status.low {
+            color: #ff9800;
+        }
+        
+        .stock-status.out {
+            color: #dc3545;
+        }
+        
+        .add-to-cart-btn {
+            width: 100%;
+            padding: 18px;
+            background: #000;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 30px;
+        }
+        
+        .add-to-cart-btn:hover {
+            background: #333;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+        
+        .add-to-cart-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .error-msg {
+            color: #dc3545;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            display: none;
+        }
+        
+        .error-msg.show {
+            display: block;
+        }
+        
+        @media (max-width: 968px) {
+            .product-layout {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .product-images {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar (same as your homepage) -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                Graveyard Studios
+                <span>PIERCING AND ACCESSORIES STUDIO</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Product_page.html">PRODUCTS</a></li>
+                <li><a href="index.html#services">SERVICES</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+            </ul>
+            <div class="search-cart">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="cart-icon" id="cartIcon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Preview -->
+    <div class="cart-preview" id="cartPreview">
+        <div class="cart-preview-header">
+            <h3>Your Cart</h3>
+            <button class="close-preview" id="closePreview">×</button>
+        </div>
+        <div class="cart-preview-items" id="cartPreviewItems"></div>
+        <div class="cart-preview-footer">
+            <div class="cart-subtotal">
+                <span>Subtotal:</span>
+                <span id="cartSubtotal">R0.00</span>
+            </div>
+            <a href="Checkout.html" class="btn-checkout">Checkout</a>
+        </div>
+    </div>
+
+    <!-- Product Detail -->
+    <div class="product-detail-page">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / 
+            <a href="Product_page.html">Products</a> / 
+            <span id="breadcrumbName">Product</span>
+        </div>
+
+        <div class="product-layout">
+            <!-- Images -->
+            <div class="product-images">
+                <div class="main-image">
+                    <img id="mainImg" src="" alt="">
+                </div>
+                <div class="thumbnail-gallery" id="thumbs"></div>
+            </div>
+
+            <!-- Details -->
+            <div class="product-details">
+                <h1 id="productName">Loading...</h1>
+                <div class="product-sku">SKU: <span id="productSku">-</span></div>
+                <div class="product-price" id="productPrice">R0.00</div>
+                <div class="product-description" id="productDesc"></div>
+
+                <div class="variant-section">
+                    <div class="variant-group">
+                        <label class="variant-label">Colour *</label>
+                        <div class="colour-options" id="colourOpts"></div>
+                    </div>
+
+                    <div class="variant-group">
+                        <label class="variant-label">Size *</label>
+                        <select class="size-select" id="sizeSelect">
+                            <option value="">Select size</option>
+                        </select>
+                    </div>
+
+                    <div class="variant-group">
+                        <label class="variant-label">Quantity</label>
+                        <div class="quantity-controls">
+                            <div class="qty-selector">
+                                <button class="qty-btn" id="qtyMinus">-</button>
+                                <input type="number" class="qty-input" id="qtyInput" value="1" min="1">
+                                <button class="qty-btn" id="qtyPlus">+</button>
+                            </div>
+                            <span class="stock-status" id="stockStatus"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="error-msg" id="errorMsg"></div>
+                <button class="add-to-cart-btn" id="addToCartBtn">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (same as homepage) -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">Graveyard Studios</h3>
+                    <p class="footer-tagline">Where art meets skin.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Graveyard Studios. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core store helpers (cart, loadProducts, getProductBySlug) -->
+    <script src="Assets/js/store.js"></script>
+
+    <!-- Navbar + Cart UI (MUST be before product-detail.js) -->
+    <script src="Assets/js/Home.js"></script>
+
+    <!-- Product detail page logic -->
+    <script src="Assets/js/product-detail.js"></script>
+</body>
+</html>

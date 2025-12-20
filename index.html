@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graveyard Studios | Alternative Piercing & Accessories</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                Graveyard Studios
+                <span>PIERCING AND ACCESSORIES STUDIO</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">HOME</a></li>
+                <li class="dropdown">
+                    <a href="#piercing" class="dropdown-toggle">PIERCING <span class="arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#jewelry">JEWELRY</a></li>
+                        <li><a href="#accessories">ACCESSORIES</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="#account">MY ACCOUNT</a></li>
+            </ul>
+            <div class="search-cart">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+     <!-- Cart Preview Dropdown -->
+
+    <div class="cart-preview" id="cartPreview">
+        <div class="cart-preview-header">
+            <h3>Your Cart</h3>
+            <button class="close-preview" id="closePreview">×</button>
+        </div>
+        <div class="cart-preview-items" id="cartPreviewItems">
+            <!-- Dynamic cart items -->
+        </div>
+        <div class="cart-preview-footer">
+            <div class="cart-subtotal">
+                <span>Subtotal:</span>
+                <span id="cartSubtotal">R0.00</span>
+            </div>
+            <a href="checkout.html" class="btn-checkout">View Cart & Checkout</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slideshow">
+            <div class="hero-slide active" style="background-image: url('images/Original\ logo\ for\ GraveGoodsStudio.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('images/Original\ logo\ for\ GraveGoodsStudio.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('images/Original\ logo\ for\ GraveGoodsStudio.jpg');"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-subtitle animate-fade-in">WE</div>
+                <h1 class="hero-title animate-fade-in-delay-1">Celebrate</h1>
+                <div class="hero-title-bold animate-fade-in-delay-2">DARKNESS</div>
+                <div class="hero-subtitle-bottom animate-fade-in-delay-3">AND BEAUTY</div>
+            </div>
+        </div>
+        <div class="decorative-wave">
+            <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
+                <path d="M0,100 Q150,50 300,100 T600,100 T900,100 T1200,100 L1200,200 L0,200 Z" fill="white" opacity="0.7"/>
+                <path d="M0,120 Q200,70 400,120 T800,120 T1200,120 L1200,200 L0,200 Z" fill="white" opacity="0.5"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Featured Collection Section -->
+    <section class="featured-collection" id="collection">
+        <div class="fc-header">
+            <h2>
+                <span class="fc-script">Featured</span>
+                <span class="fc-bold">COLLECTION</span>
+            </h2>
+            <p class="fc-subtitle">DISCOVER OUR HANDPICKED SELECTION OF PREMIUM PIERCING JEWELRY</p>
+        </div>
+
+        <div class="fc-grid">
+            <div class="fc-item">
+                <img src="images/product images/CircularHorseshoeBarbell1.jpg" alt="Circular Barbell">
+                <h3 class="fc-name">CIRCULAR HORSESHOE BARBELL</h3>
+                <p class="fc-price">From R59.99</p>
+            </div>
+
+            <div class="fc-item">
+                <img src="images/product images/CURVEDBANANA BARBELL2.jpg" alt="Curved Barbell">
+                <h3 class="fc-name">CURVED BANANA BARBELL</h3>
+                <p class="fc-price">From R84.99</p>
+            </div>
+
+            <div class="fc-item">
+                <img src="images/product images/NoseStraight1.jpg" alt="Nose Straight">
+                <h3 class="fc-name">NOSE STRAIGHT</h3>
+                <p class="fc-price">From R45.99</p>
+            </div>
+
+            <div class="fc-item">
+                <img src="images/product images/Segment Ring4.jpg" alt="Segment Ring">
+                <h3 class="fc-name">SEGMENT RING</h3>
+                <p class="fc-price">From R34.99</p>
+            </div>
+        </div>
+
+        <div class="fc-btn-wrapper">
+            <a href="Product_page.html">
+        <button class="fc-btn">VIEW FULL COLLECTION</button>
+            </a>
+        </div>
+
+        <div class="loading-spinner" id="loadingSpinner">
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="services-container">
+            <div class="services-header">
+                <span class="services-subtitle">WHAT WE OFFER</span>
+                <h2 class="services-title">Our <span>Services</span></h2>
+                <p class="services-description">
+                    Precision piercing. Luxury jewelry. A studio built for expression.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <img src="images/Nipple Piercing img.png" alt="Piercing Service">
+                    <h3>Professional Piercing</h3>
+                    <p>Performed by certified artists with strict hygiene standards.</p>
+                    <ul>
+                        <li>✦ Certified Piercers</li>
+                        <li>✦ Sterile Environment</li>
+                        <li>✦ Personal Consultation</li>
+                        <li>✦ Aftercare Guidance</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <img src="images/earpiercing img.png" alt="Jewelry Collection">
+                    <h3>Premium Jewelry Collection</h3>
+                    <p>Curated high-quality pieces designed for modern & alternative styles.</p>
+                    <ul>
+                        <li>✦ Titanium & Surgical Steel</li>
+                        <li>✦ Gold & Black Options</li>
+                        <li>✦ Hypoallergenic Materials</li>
+                        <li>✦ Custom Designs</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <img src="images/Piercing Gun img.png" alt="Jewelry Consultation">
+                    <h3>Jewelry Consultation</h3>
+                    <p>Select perfect pieces based on style, anatomy & healing stage.</p>
+                    <ul>
+                        <li>✦ Sizing & Fit</li>
+                        <li>✦ Style Matching</li>
+                        <li>✦ Sensitivity Testing</li>
+                        <li>✦ Jewelry Changing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <!-- Left Column: Typography -->
+            <div class="text-column">
+                <h1 class="about-heading">
+                    <span class="heading-line">
+                        <span class="word-part-1">WE</span>
+                    </span>
+                </h1>
+                <h1 class="about-heading">
+                    <span class="heading-line">
+                        <span class="word-part-2">Celebrate</span>
+                    </span>
+                </h1>
+                <h1 class="about-heading">
+                    <span class="heading-line">
+                        <span class="word-part-1">ARTISTRY</span>
+                    </span>
+                </h1>
+                <h1 class="about-heading">
+                    <span class="heading-line">
+                        <span class="word-part-1">AND CRAFT</span>
+                    </span>
+                </h1>
+            </div>
+
+            <!-- Right Column: Floating Card -->
+            <div class="card-column">
+                <!-- Main Card -->
+                <div class="floating-card active-card" id="mainCard">
+                    <h2 class="card-title">Precision piercing, curated jewelry.</h2>
+                    <p class="card-description">
+                        // Where every piercing tells a story and every piece is chosen with intention.
+                    </p>
+                    <div class="card-footer">
+                        <div class="status-badge">
+                            <span class="status-label">STUDIO</span>
+                            <span class="status-value">Open Today</span>
+                        </div>
+                        <button class="circle-button" id="infoButton" aria-label="View more information">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Info Card 1: Opening Hours -->
+                <div class="floating-card info-slide" id="infoCard1">
+                    <button class="card-nav-btn prev-btn" data-target="mainCard">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="card-nav-btn next-btn" data-target="infoCard2">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    
+                    <div class="info-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="info-card-title">Opening Hours</h3>
+                    <div class="info-content">
+                        <div class="info-row">
+                            <span class="info-day">Monday - Friday</span>
+                            <span class="info-time">9:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-day">Saturday</span>
+                            <span class="info-time">9:00 AM - 3:00 PM</span>
+                        </div>
+                        <div class="info-row closed-day">
+                            <span class="info-day">Sunday</span>
+                            <span class="info-time">Closed</span>
+                        </div>
+                    </div>
+                    <div class="card-indicator">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <!-- Info Card 2: Contact Info -->
+                <div class="floating-card info-slide" id="infoCard2">
+                    <button class="card-nav-btn prev-btn" data-target="infoCard1">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="card-nav-btn next-btn" data-target="infoCard3">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    
+                    <div class="info-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 8L10.89 13.26C11.54 13.67 12.46 13.67 13.11 13.26L21 8M5 19H19C20.1 19 21 18.1 21 17V7C21 5.9 20.1 5 19 5H5C3.9 5 3 5.9 3 7V17C3 18.1 3.9 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="info-card-title">Get In Touch</h3>
+                    <div class="info-content">
+                        <div class="info-item">
+                            <strong>Phone</strong>
+                            <p>+27 (0) 12 345 6789</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>Email</strong>
+                            <p>info@graveyardstudios.co.za</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>WhatsApp</strong>
+                            <p>+27 82 123 4567</p>
+                        </div>
+                    </div>
+                    <div class="card-indicator">
+                        <span class="dot"></span>
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <!-- Info Card 3: Location -->
+                <div class="floating-card info-slide" id="infoCard3">
+                    <button class="card-nav-btn prev-btn" data-target="infoCard2">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="card-nav-btn close-btn" data-target="mainCard">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M12 4L4 12M4 4L12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    
+                    <div class="info-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                            <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="info-card-title">Visit Our Studio</h3>
+                    <div class="info-content">
+                        <div class="info-item">
+                            <strong>Address</strong>
+                            <p>123 Alternative Street<br>Johannesburg, Gauteng<br>2000, South Africa</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>Parking</strong>
+                            <p>Free street parking available</p>
+                        </div>
+                    </div>
+                    <div class="card-indicator">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot active"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <!-- Left Column: Logo/Image -->
+            <div class="contact-image-column">
+                <div class="contact-logo-wrapper">
+                    <img src="images/Original logo for GraveGoodsStudio.jpg" alt="Graveyard Studios Logo" class="contact-logo">
+                    <div class="contact-overlay">
+                        <h3>Let's Connect</h3>
+                        <p>Ready to start your piercing journey or have questions about our jewelry?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Contact Form -->
+            <div class="contact-form-column">
+                <div class="contact-form-wrapper">
+                    <h2 class="contact-title">
+                        <span class="contact-script">Get In</span>
+                        <span class="contact-bold">TOUCH</span>
+                    </h2>
+                    <p class="contact-subtitle">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="piercing">Piercing Inquiry</option>
+                                <option value="jewelry">Jewelry Purchase</option>
+                                <option value="booking">Book Appointment</option>
+                                <option value="aftercare">Aftercare Advice</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="contact-submit-btn">
+                            Send Message
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M18 2L9 11M18 2L12 18L9 11M18 2L2 8L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">Graveyard Studios</h3>
+                    <p class="footer-tagline">Where art meets skin. Premium piercing & accessories studio.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#collection">Collection</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Professional Piercing</a></li>
+                        <li><a href="#services">Jewelry Collection</a></li>
+                        <li><a href="#services">Consultations</a></li>
+                        <li><a href="#services">Aftercare</a></li>
+                        <li><a href="#services">Custom Designs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            123 Alternative Street<br>
+                            Johannesburg, 2000
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            +27 (0) 12 345 6789
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            info@graveyardstudios.co.za
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Graveyard Studios. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span>•</span>
+                    <a href="#">Terms of Service</a>
+                    <span>•</span>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Home.js"></script>
+</body>
+</html>
