@@ -5,7 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout | Graveyard Studios</title>
     <link rel="stylesheet" href="Checkout.css">
+    <link rel="stylesheet" href="Home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                Graveyard Studios
+                <span>PIERCING AND ACCESSORIES STUDIO</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">HOME</a></li>
+                <li class="dropdown">
+                    <a href="Product_page.html" class="dropdown-toggle">PRODUCTS <span class="arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Product_page.html">ALL PRODUCTS</a></li>
+                        <li><a href="Product_page.html">JEWELRY</a></li>
+                        <li><a href="Product_page.html">ACCESSORIES</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#services">SERVICES</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+            </ul>
+            <div class="search-cart">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <div class="cart-icon" id="cartIcon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
 </head>
 <body>
 
@@ -241,6 +279,13 @@
 
     </div>
 
-    <script src="Checkout.js"></script>
+    <!-- Store & Cart Functionality -->
+    <script src="Assets/js/store.js"></script>
+    
+    <!-- Navbar & Cart UI -->
+    <script src="Assets/js/Home.js"></script>
+    
+    <!-- Checkout Logic -->
+    <script src="Assets/js/Checkout.js"></script>
 </body>
 </html>
