@@ -320,15 +320,14 @@ function initQuantityControls() {
 function handleAddToCart() {
     clearError();
     
-    // Validate selections
-    if (!selectedColour) {
-        showError('Please select a colour');
-        return;
-    }
-    
-    if (!selectedMeasurement) {
-        showError('Please select a size');
-        return;
+    // If product provides variant options, default to first available instead of blocking checkout
+    if (currentProduct) {
+        if ((!selectedColour || selectedColour === '') && Array.isArray(currentProduct.colours) && currentProduct.colours.length > 0) {
+            selectedColour = currentProduct.colours[0];
+        }
+        if ((!selectedMeasurement || selectedMeasurement === '') && Array.isArray(currentProduct.measurements) && currentProduct.measurements.length > 0) {
+            selectedMeasurement = currentProduct.measurements[0];
+        }
     }
     
     // Check stock
