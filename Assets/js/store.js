@@ -176,8 +176,19 @@ function formatPrice(price, currency = 'ZAR') {
  */
 function validateCartItem(item) {
     if (!item.productId) return { valid: false, error: 'Invalid product' };
-    if (!item.selectedColour) return { valid: false, error: 'Please select a colour' };
-    if (!item.measurement) return { valid: false, error: 'Please select a size' };
+    // If the product defines colours or measurements, require them. Otherwise allow missing variants.
+    let product = null;
+    if (productsCache && Array.isArray(productsCache)) {
+        product = productsCache.find(p => p.id === item.productId || p.slug === item.slug || p.id === item.slug) || null;
+    }
+
+    if (product && Array.isArray(product.colours) && product.colours.length > 0) {
+        if (!item.selectedColour) return { valid: false, error: 'Please select a colour' };
+    }
+
+    if (product && Array.isArray(product.measurements) && product.measurements.length > 0) {
+        if (!item.measurement) return { valid: false, error: 'Please select a size' };
+    }
     if (!item.quantity || item.quantity < 1) return { valid: false, error: 'Invalid quantity' };
     return { valid: true, error: '' };
 }
