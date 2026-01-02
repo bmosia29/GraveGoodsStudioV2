@@ -509,110 +509,6 @@ if (contactForm) {
     });
 }
 
-/**
- * home.js - Homepage functionality
- * Integrates with existing Graveyard Studios homepage
- */
-
-document.addEventListener('DOMContentLoaded', () => {
-    initCart();
-    initMobileMenu();
-    initNavbarScroll();
-    makeProductsClickable();
-});
-
-// Initialize cart UI
-function initCart() {
-    updateCartBadge();
-    updateCartPreview();
-    
-    // Cart icon click
-    const cartIcon = document.querySelector('.cart-icon');
-    const cartPreview = document.getElementById('cartPreview');
-    const closePreview = document.getElementById('closePreview');
-    
-    if (cartIcon && cartPreview) {
-        cartIcon.addEventListener('click', (e) => {
-            e.stopPropagation();
-            cartPreview.classList.toggle('show');
-        });
-    }
-    
-    if (closePreview) {
-        closePreview.addEventListener('click', () => {
-            cartPreview.classList.remove('show');
-        });
-    }
-    
-    // Close on outside click
-    document.addEventListener('click', (e) => {
-        if (cartPreview && !cartPreview.contains(e.target) && !cartIcon.contains(e.target)) {
-            cartPreview.classList.remove('show');
-        }
-    });
-    
-    // Listen for cart updates
-    window.addEventListener('cartUpdated', () => {
-        updateCartBadge();
-        updateCartPreview();
-    });
-}
-
-// Update cart badge
-function updateCartBadge() {
-    const cartCount = document.querySelector('.cart-count');
-    const count = getCartCount();
-    if (cartCount) {
-        cartCount.textContent = count;
-        cartCount.style.display = count > 0 ? 'flex' : 'none';
-    }
-}
-
-// Update cart preview
-function updateCartPreview() {
-    const cartPreviewItems = document.getElementById('cartPreviewItems');
-    const cartSubtotal = document.getElementById('cartSubtotal');
-    const cart = getCart();
-    
-    if (!cartPreviewItems) return;
-    
-    if (cart.length === 0) {
-        cartPreviewItems.innerHTML = `
-            <div class="empty-cart">
-                <i class="fas fa-shopping-bag"></i>
-                <p>Your cart is empty</p>
-            </div>
-        `;
-        if (cartSubtotal) cartSubtotal.textContent = 'R0.00';
-        return;
-    }
-    
-    cartPreviewItems.innerHTML = cart.map((item, index) => `
-        <div class="cart-preview-item">
-            <img src="${item.image}" alt="${item.name}">
-            <div class="item-details">
-                <h4>${item.name}</h4>
-                <p>${item.selectedColour} • ${item.measurement}</p>
-                <p class="item-price">R${item.price.toFixed(2)} × ${item.quantity}</p>
-            </div>
-            <button class="remove-item" data-index="${index}">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-    `).join('');
-    
-    if (cartSubtotal) {
-        cartSubtotal.textContent = formatPrice(getCartSubtotal());
-    }
-    
-    // Add remove listeners
-    document.querySelectorAll('.remove-item').forEach(btn => {
-        btn.addEventListener('click', () => {
-            removeFromCart(parseInt(btn.dataset.index));
-        });
-    });
-}
-
 // Make featured products clickable
 function makeProductsClickable() {
     const productCards = document.querySelectorAll('.fc-item');
@@ -680,10 +576,16 @@ function initCart() {
     const cartPreview = document.getElementById('cartPreview');
     const closePreview = document.getElementById('closePreview');
     
-    if (cartIcon && cartPreview) {
+    if (cartIcon) {
         cartIcon.addEventListener('click', (e) => {
             e.stopPropagation();
-            cartPreview.classList.toggle('show');
+            // If cart preview exists (on home/checkout pages), toggle it
+            if (cartPreview) {
+                cartPreview.classList.toggle('show');
+            } else {
+                // If cart preview doesn't exist (product pages), navigate to checkout
+                window.location.href = 'Checkout.html';
+            }
         });
     }
     
