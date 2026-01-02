@@ -36,7 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.style.color = '#fff';
     btn.style.fontWeight = '700';
 
-    card.appendChild(btn);
+    // If the card is inside the anchor, insert the button after the anchor so it's not part of the link
+    if (a.contains(card) || card.parentElement === a) {
+      a.parentNode.insertBefore(btn, a.nextSibling);
+    } else {
+      card.appendChild(btn);
+    }
 
     btn.addEventListener('click', async (e) => {
       e.preventDefault();
