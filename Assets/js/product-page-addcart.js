@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.className = 'pc-add-to-cart';
     btn.dataset.id = id;
     btn.dataset.price = priceText;
-    btn.textContent = 'Add to cart';
+    btn.innerHTML = '<i class="fas fa-shopping-cart"></i> Add to cart';
 
     // simple styling hook (can be styled in CSS)
     btn.style.marginTop = '8px';

@@ -579,13 +579,8 @@ function initCart() {
     if (cartIcon) {
         cartIcon.addEventListener('click', (e) => {
             e.stopPropagation();
-            // If cart preview exists (on home/checkout pages), toggle it
-            if (cartPreview) {
-                cartPreview.classList.toggle('show');
-            } else {
-                // If cart preview doesn't exist (product pages), navigate to checkout
-                window.location.href = 'Checkout.html';
-            }
+            // Navigate to checkout page
+            window.location.href = 'Checkout.html';
         });
     }
     
