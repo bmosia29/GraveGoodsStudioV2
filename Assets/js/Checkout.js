@@ -9,6 +9,60 @@ document.addEventListener('DOMContentLoaded', function() {
     const vatRate = 0.15; // 15% VAT
 
     // ========================================
+    // LOAD CART ITEMS FROM LOCALSTORAGE
+    // ========================================
+    function loadCartItemsFromStorage() {
+        const cartItemsContainer = document.getElementById('cartItems');
+        const cart = getCart();
+        
+        if (!cart || cart.length === 0) {
+            cartItemsContainer.innerHTML = `
+                <div style="text-align: center; padding: 60px 20px;">
+                    <i class="fas fa-shopping-bag" style="font-size: 4rem; color: #ddd; margin-bottom: 20px;"></i>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Your cart is empty</h3>
+                    <p style="color: #666; margin-bottom: 25px;">Add some items to get started!</p>
+                    <a href="index.html" style="display: inline-block; padding: 12px 30px; background: #000; color: #fff; text-decoration: none; border-radius: 50px; font-weight: 700; transition: all 0.3s ease;">
+                        Continue Shopping
+                    </a>
+                </div>
+            `;
+            return;
+        }
+        
+        // Create HTML for each cart item
+        const itemsHTML = cart.map((item, index) => `
+            <div class="cart-item" data-price="${item.price}" data-id="${index}">
+                <div class="item-image">
+                    <img src="${item.image}" alt="${item.name}">
+                </div>
+                <div class="item-details">
+                    <h3 class="item-name">${item.name}</h3>
+                    <p class="item-variation">${item.selectedColour}${item.selectedColour && item.measurement ? ' • ' : ''}${item.measurement}</p>
+                    <div class="item-actions">
+                        <div class="quantity-selector">
+                            <button class="qty-btn minus" data-id="${index}">-</button>
+                            <input type="number" class="qty-input" value="${item.quantity}" min="1" max="99" data-id="${index}">
+                            <button class="qty-btn plus" data-id="${index}">+</button>
+                        </div>
+                        <button class="remove-btn" data-id="${index}">
+                            <i class="fas fa-trash-alt"></i> Remove
+                        </button>
+                    </div>
+                </div>
+                <div class="item-price">
+                    <span class="price-label">Price</span>
+                    <span class="price-value">R<span class="item-total">${(item.price * item.quantity).toFixed(2)}</span></span>
+                </div>
+            </div>
+        `).join('');
+        
+        cartItemsContainer.innerHTML = itemsHTML;
+    }
+
+    // Load cart items when page loads
+    loadCartItemsFromStorage();
+
+    // ========================================
     // CALCULATE TOTALS
     // ========================================
     function calculateTotals() {
@@ -45,91 +99,115 @@ document.addEventListener('DOMContentLoaded', function() {
     // QUANTITY CONTROLS
     // ========================================
     
-    // Plus buttons
-    const plusButtons = document.querySelectorAll('.qty-btn.plus');
-    plusButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            const id = this.getAttribute('data-id');
-            const input = document.querySelector(`.qty-input[data-id="${id}"]`);
-            let value = parseInt(input.value);
-            const max = parseInt(input.getAttribute('max'));
-            
-            if (value < max) {
-                input.value = value + 1;
+    // Helper function to bind quantity controls
+    function bindQuantityControls() {
+        // Plus buttons
+        const plusButtons = document.querySelectorAll('.qty-btn.plus');
+        plusButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const cartIndex = parseInt(this.getAttribute('data-id'));
+                const cart = getCart();
+                if (cart[cartIndex]) {
+                    cart[cartIndex].quantity += 1;
+                    setCart(cart);
+                    loadCartItemsFromStorage();
+                    calculateTotals();
+                    bindQuantityControls();
+                    animateButton(this);
+                }
+            });
+        });
+
+        // Minus buttons
+        const minusButtons = document.querySelectorAll('.qty-btn.minus');
+        minusButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const cartIndex = parseInt(this.getAttribute('data-id'));
+                const cart = getCart();
+                if (cart[cartIndex] && cart[cartIndex].quantity > 1) {
+                    cart[cartIndex].quantity -= 1;
+                    setCart(cart);
+                    loadCartItemsFromStorage();
+                    calculateTotals();
+                    bindQuantityControls();
+                    animateButton(this);
+                }
+            });
+        });
+
+        // Manual input change
+        const qtyInputs = document.querySelectorAll('.qty-input');
+        qtyInputs.forEach(input => {
+            input.addEventListener('change', function() {
+                const cartIndex = parseInt(this.getAttribute('data-id'));
+                let value = parseInt(this.value);
+                const cart = getCart();
+                
+                if (!cart[cartIndex]) return;
+                
+                const min = 1;
+                const max = 99;
+                
+                // Validate input
+                if (isNaN(value) || value < min) {
+                    value = min;
+                } else if (value > max) {
+                    value = max;
+                }
+                
+                cart[cartIndex].quantity = value;
+                setCart(cart);
+                loadCartItemsFromStorage();
                 calculateTotals();
-                animateButton(this);
-            }
-        });
-    });
+                bindQuantityControls();
+            });
 
-    // Minus buttons
-    const minusButtons = document.querySelectorAll('.qty-btn.minus');
-    minusButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            const id = this.getAttribute('data-id');
-            const input = document.querySelector(`.qty-input[data-id="${id}"]`);
-            let value = parseInt(input.value);
-            const min = parseInt(input.getAttribute('min'));
-            
-            if (value > min) {
-                input.value = value - 1;
-                calculateTotals();
-                animateButton(this);
-            }
+            // Prevent non-numeric input
+            input.addEventListener('keypress', function(e) {
+                if (e.key < '0' || e.key > '9') {
+                    e.preventDefault();
+                }
+            });
         });
-    });
-
-    // Manual input change
-    const qtyInputs = document.querySelectorAll('.qty-input');
-    qtyInputs.forEach(input => {
-        input.addEventListener('change', function() {
-            let value = parseInt(this.value);
-            const min = parseInt(this.getAttribute('min'));
-            const max = parseInt(this.getAttribute('max'));
-            
-            // Validate input
-            if (isNaN(value) || value < min) {
-                this.value = min;
-            } else if (value > max) {
-                this.value = max;
-            }
-            
-            calculateTotals();
-        });
-
-        // Prevent non-numeric input
-        input.addEventListener('keypress', function(e) {
-            if (e.key < '0' || e.key > '9') {
-                e.preventDefault();
-            }
-        });
-    });
+    }
+    
+    // Bind controls after loading cart
+    bindQuantityControls();
 
     // ========================================
     // REMOVE ITEM
     // ========================================
-    const removeButtons = document.querySelectorAll('.remove-btn');
-    removeButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            const id = this.getAttribute('data-id');
-            const item = document.querySelector(`.cart-item[data-id="${id}"]`);
-            
-            // Animate removal
-            item.style.opacity = '0';
-            item.style.transform = 'translateX(-20px)';
-            
-            setTimeout(() => {
-                item.remove();
-                calculateTotals();
+    function bindRemoveButtons() {
+        const removeButtons = document.querySelectorAll('.remove-btn');
+        removeButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const cartIndex = parseInt(this.getAttribute('data-id'));
+                const item = document.querySelector(`.cart-item[data-id="${cartIndex}"]`);
                 
-                // Check if cart is empty
-                const remainingItems = document.querySelectorAll('.cart-item');
-                if (remainingItems.length === 0) {
-                    showEmptyCart();
-                }
-            }, 300);
+                // Animate removal
+                item.style.opacity = '0';
+                item.style.transform = 'translateX(-20px)';
+                
+                setTimeout(() => {
+                    // Remove from localStorage
+                    const cart = getCart();
+                    cart.splice(cartIndex, 1);
+                    setCart(cart);
+                    
+                    // Reload cart display
+                    loadCartItemsFromStorage();
+                    calculateTotals();
+                    
+                    // Re-bind event listeners
+                    bindQuantityControls();
+                    bindRemoveButtons();
+                }, 300);
+            });
         });
-    });
+    }
+    
+    // Bind remove buttons after loading cart
+    bindRemoveButtons();
 
     // ========================================
     // EMPTY CART HANDLER
@@ -195,9 +273,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
             
+            // Clear cart from localStorage after successful order
+            clearCart();
+            
             // Reset button
             this.innerHTML = originalText;
             this.disabled = false;
+            
+            // Redirect to home page
+            window.location.href = 'index.html';
             
             // In a real app, redirect to confirmation page
             // window.location.href = 'order-confirmation.html';
