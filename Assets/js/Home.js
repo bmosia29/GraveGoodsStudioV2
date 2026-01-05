@@ -561,9 +561,69 @@ function initNavbarScroll() {
 
 document.addEventListener('DOMContentLoaded', () => {
     initCart();
+    initSearch();
     initMobileMenu();
     initNavbarScroll();
     makeProductsClickable();
+});
+
+// Initialize search functionality
+function initSearch() {
+    const searchIcon = document.querySelector('.search-icon');
+    const searchModal = document.getElementById('searchModal');
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    
+    if (searchIcon) {
+        searchIcon.addEventListener('click', () => {
+            searchModal.classList.add('active');
+            searchInput.focus();
+        });
+    }
+    
+    if (searchInput) {
+        searchInput.addEventListener('input', async (e) => {
+            const query = e.target.value.toLowerCase();
+            
+            if (query.length < 2) {
+                searchResults.innerHTML = '';
+                return;
+            }
+            
+            try {
+                const products = await loadProducts();
+                const filtered = products.filter(p => 
+                    (p.name && p.name.toLowerCase().includes(query)) ||
+                    (p.description && p.description.toLowerCase().includes(query)) ||
+                    (p.category && p.category.toLowerCase().includes(query))
+                );
+                
+                searchResults.innerHTML = filtered.map(product => `
+                    <div class="search-result-item" onclick="window.location.href='product-detail.html?id=${product.slug || product.id}'">
+                        <strong>${product.name}</strong>
+                        <div style="font-size: 0.9rem; color: #666;">R${product.price.toFixed(2)} - ${product.category}</div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Search error:', error);
+            }
+        });
+    }
+}
+
+function closeSearch() {
+    const searchModal = document.getElementById('searchModal');
+    searchModal.classList.remove('active');
+    document.getElementById('searchInput').value = '';
+    document.getElementById('searchResults').innerHTML = '';
+}
+
+// Close search when clicking outside modal
+document.addEventListener('click', (e) => {
+    const searchModal = document.getElementById('searchModal');
+    if (searchModal && !searchModal.contains(e.target) && !e.target.closest('.search-icon')) {
+        closeSearch();
+    }
 });
 
 // Initialize cart UI

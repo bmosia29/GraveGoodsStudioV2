@@ -180,9 +180,10 @@ body {
 
 .search-icon, .cart-icon {
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     position: relative;
     transition: transform 0.3s ease, color 0.3s ease;
+    color: #000000;
 }
 
 .search-icon:hover, .cart-icon:hover {
@@ -190,9 +191,15 @@ body {
     color: #666666;
 }
 
+.search-icon i, .cart-icon i {
+    color: #000000;
+    display: block;
+}
+
 .cart-icon {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .cart-count {
