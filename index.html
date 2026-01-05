@@ -5,33 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graveyard Studios | Alternative Piercing & Accessories</title>
     <link rel="stylesheet" href="Home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-RXf+QSDCUQs6fEoS8nH3VvDOMkMt2rt7Nm5GJkP7FpC18JNpDutLCRa14Qdqg7Y4fefC0FqzJZzYxZP3GNn5Rw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 Graveyard Studios
                 <span>PIERCING AND ACCESSORIES STUDIO</span>
             </a>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li class="dropdown">
-                    <a href="#piercing" class="dropdown-toggle">PIERCING <span class="arrow">▼</span></a>
+                    <a href="Product_page.html" class="dropdown-toggle">PRODUCTS <span class="arrow">▼</span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#jewelry">JEWELRY</a></li>
-                        <li><a href="#accessories">ACCESSORIES</a></li>
-                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="Product_page.html">ALL PRODUCTS</a></li>
+                        <li><a href="Product_page.html">JEWELRY</a></li>
+                        <li><a href="Product_page.html">ACCESSORIES</a></li>
                     </ul>
                 </li>
-                <li><a href="#contact">CONTACT US</a></li>
-                <li><a href="#account">MY ACCOUNT</a></li>
+                <li><a href="index.html#services">SERVICES</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
             </ul>
             <div class="search-cart">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                <div class="cart-icon">
-                    <i class="fa-solid fa-cart-arrow-down"></i>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <div class="cart-icon" id="cartIcon">
+                    <i class="fa-solid fa-cart-shopping"></i>
                     <span class="cart-count">0</span>
                 </div>
             </div>
@@ -482,6 +482,10 @@
         </div>
     </footer>
 
-    <script src="Home.js"></script>
+    <!-- Store & Cart Functionality -->
+    <script src="Assets/js/store.js"></script>
+    
+    <!-- Navbar & Cart UI -->
+    <script src="Assets/js/Home.js"></script>
 </body>
 </html>
