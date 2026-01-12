@@ -16,7 +16,7 @@
                          "name":  "3_4_5MM Dermal Top Black",
                          "price":  120,
                          "images":  [
-                                        "Assets/images/GC - DERMAL JEWELLERY/3-4-5-MM-DERMAL-TOP-BLACK.png"
+                                        "Assets/images/GC - DERMAL JEWELLERY/2MM-DERMAL-TOP-ANCHOR-SET-CRYSTAL.png"
                                     ],
                          "category":  "Dermal",
                          "description":  "Black dermal top available in 3, 4 and 5mm.",
@@ -38,7 +38,7 @@
                          "name":  "3MM Dermal Skin Diver| Clear",
                          "price":  160,
                          "images":  [
-                                        "Assets/images/GC - DERMAL JEWELLERY/3MM-SKIN-DIVER-CLEAR.png"
+                                        "Assets/images/GC - DERMAL JEWELLERY/2MM-DERMAL-TOP-ANCHOR-SET-CRYSTAL.png"
                                     ],
                          "category":  "Dermal",
                          "description":  "3mm skin diver dermal top, clear.",
@@ -49,7 +49,7 @@
                          "name":  "3MM Dermal Top| LIGHT SAPPHIRE",
                          "price":  140,
                          "images":  [
-                                        "Assets/images/GC - DERMAL JEWELLERY/4MM-DERMAL-TOP-LIGHT-SAPPHIRE.png"
+                                        "Assets/images/GC - DERMAL JEWELLERY/2MM-DERMAL-TOP-ANCHOR-SET-CRYSTAL.png"
                                     ],
                          "category":  "Dermal",
                          "description":  "3mm dermal top in light sapphire.",
@@ -71,7 +71,7 @@
                          "name":  "0.8MM Nose Jewellery| PIGTAIL| GOLD| CUBIC ZIRCONIA",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/0-8MM-PIGTAIL-GOLD-CUBIC-ZIRCONIA-1-5MM-CRYSTAL.png"
+                                        "Assets/images/GraveGoodsStudios-Nose-Piercing.png"
                                     ],
                          "category":  "Nose",
                          "description":  "Gold pigtail nose jewellery with cubic zirconia.",
@@ -82,7 +82,7 @@
                          "name":  "0.8MM NOSE JEWELLERY| PIGTAIL| GOLD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/0-8MM-PIGTAIL-GOLD-JEWELLED.png"
+                                        "Assets/images/GraveGoodsStudios-Nose-Piercing.png"
                                     ],
                          "category":  "Nose",
                          "description":  "Gold jewelled pigtail nose jewellery.",
@@ -93,7 +93,7 @@
                          "name":  "0.8MM NOSE JEWELLERY| PIGTAIL| PLAIN STEEL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/0-8MM-STEEL-PLAIN-PIGTAIL.png"
+                                        "Assets/images/GraveGoodsStudios-Nose-Piercing.png"
                                     ],
                          "category":  "Nose",
                          "description":  "Plain steel pigtail nose jewellery.",
@@ -115,7 +115,7 @@
                          "name":  "10MM NOSE JEWELLERY| NOSE RING| STEEL| CRYSTAL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/10MM-STEEL-CRYSTAL-NOSE-RING.png"
+                                        "Assets/images/GC - NOSE JEWELLERY/10MM-GOLD-CRYSTAL-NOSE-RING.png"
                                     ],
                          "category":  "Nose",
                          "description":  "10mm steel nose ring with crystal.",
@@ -126,7 +126,7 @@
                          "name":  "10MM NOSE JEWELLERY| PIG TAIL| STEEL| LIGHT SAPPHIRE BLUE",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/1MM-PIGTAIL-STEEL-LIGHT-SAPPHIRE-BLUE.png"
+                                        "Assets/images/GC - NOSE JEWELLERY/10MM-GOLD-CRYSTAL-NOSE-RING.png"
                                     ],
                          "category":  "Nose",
                          "description":  "Steel pigtail with light sapphire blue stone.",
@@ -137,7 +137,7 @@
                          "name":  "10MM NOSE JEWELLERY| NOSE RING |3-STONE| STERLING STEEL| SILVER",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/3-STONE-STERLING-SILVER-NOSE-RING.png"
+                                        "Assets/images/GC - NOSE JEWELLERY/10MM-GOLD-CRYSTAL-NOSE-RING.png"
                                     ],
                          "category":  "Nose",
                          "description":  "Three-stone sterling silver nose ring.",
@@ -148,7 +148,7 @@
                          "name":  "6MM NOSE JEWELLERY| NOSE RING|BLACK CRYSTAL| SILVER",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/6MM-BLACK-CRYSTAL-NOSE-RING.png"
+                                        "Assets/images/GraveGoodsStudios-Nose-Piercing.png"
                                     ],
                          "category":  "Nose",
                          "description":  "6mm black crystal nose ring, silver.",
@@ -159,7 +159,7 @@
                          "name":  "6MM NOSE JEWELLERY| NOSE RING|CLIP-IN-NOSE| STERLING SILVER",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/6MM-STERLING-SILVER-CLIP-IN-NOSE-RING.png"
+                                        "Assets/images/GraveGoodsStudios-Nose-Piercing.png"
                                     ],
                          "category":  "Nose",
                          "description":  "6mm clip-in nose ring in sterling silver.",
@@ -170,7 +170,7 @@
                          "name":  "8MM NOSE JEWELLERY| NOSE RING| GOLD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/8MM-GOLD-NOSE-RING.png"
+                                        "Assets/images/GraveGoodsStudios-Nose-Piercing.png"
                                     ],
                          "category":  "Nose",
                          "description":  "8mm gold nose ring.",
@@ -181,7 +181,7 @@
                          "name":  "8MM NOSE JEWELLERY| NOSE RING| SILVER  TWISTED",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/8MM-SILVER-TWISTED-NOSE-RING.png"
+                                        "Assets/images/GraveGoodsStudios-Nose-Piercing.png"
                                     ],
                          "category":  "Nose",
                          "description":  "8mm twisted silver nose ring.",
@@ -192,7 +192,7 @@
                          "name":  "8MM NOSE JEWELLERY| FLOWER RING| SILVER GOLD COATED TWISTED CRYSTAL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NOSE JEWELLERY/8MM-STERLING-SILVER-GOLD-COATED-TWIST-CRYSTAL-FLOWER-RING.png"
+                                        "Assets/images/GraveGoodsStudios-Nose-Piercing.png"
                                     ],
                          "category":  "Nose",
                          "description":  "Flower-shaped nose ring with crystals, gold coated.",
@@ -203,7 +203,7 @@
                          "name":  "1.6 X 10 X 5_5 BELLY JEWELLERY| SLAVE RING| JEWELLED TOP",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/1-6-X-10-X-5-5-BELLY-BAR-SLAVE-RING-JEWELLED-TOP.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Belly bar with jewelled top and slave ring.",
@@ -214,7 +214,7 @@
                          "name":  "1.6 X 10 X 5_5 BELLY BAR| SLAVE RING",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/1-6-X-10-X-5-5-BELLY-BAR-SLAVE-RING.png"
+                                        "Assets/images/GC JEWELLERY - BELLY/1-6-X-10-X-5-5-BELLY-BAR-SLAVE-RING-JEWELLED-TOP.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Classic 1.6 x 10 x 5.5 belly bar slave ring.",
@@ -247,7 +247,7 @@
                          "name":  "1.6 X 12 BELLY BAR| HINGED CRESCENT| TATUIM GOLD PVD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/1-6-X-12-BELLY-BAR-HINGED-CRESCENT-TITANIUM-GOLD-PVD.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Hinged crescent belly bar in titanium gold PVD.",
@@ -258,7 +258,7 @@
                          "name":  "1.6 X 12 BELLY BAR| CRYSTAL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/1-6-X-12-X-10-5-8-5-BELLY-BAR-CRYSTAL-ICE.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Crystal ice belly bar.",
@@ -269,7 +269,7 @@
                          "name":  "1.6 X 8 X 5_8|BELLY BAR| DOUBLE JEWELLED| GOLD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/1-6-X-8-X-5-8-BELLY-BAR-GOLD-DOUBLE-JEWELLED-PVD.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Double jewelled gold belly bar.",
@@ -280,7 +280,7 @@
                          "name":  "1.6 X 8 X 5_8|BELLY RING| BLUE JEWELLED| SQAURE DESIGN|",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/BLUE-JEWELLED-SQUARE-DESIGN-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Blue jewelled square design belly ring.",
@@ -291,7 +291,7 @@
                          "name":  "1.6 X 8 X 5_8|BELLY RING| BROWN_BEIGE JEWELLED| ROUND JEWELLED DESIGN|",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/BROWN-BEIGE-ROUND-JEWELLED-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Brown/beige round jewelled belly ring.",
@@ -302,7 +302,7 @@
                          "name":  "1.6 X 8 X 5_8|BELLY RING| CROSS BADGE",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/CROSS-BADGE-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Cross badge belly ring.",
@@ -313,7 +313,7 @@
                          "name":  "1.6 X 8 X 5_8|BELLY RING| DAINTY DANGLING LEAF",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/DAINTY-DANGLING-LEAF-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Dainty dangling leaf belly ring.",
@@ -324,7 +324,7 @@
                          "name":  "BELLY RING| DOUBLE HEART DANGLING LEAF",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/DOUBLE-HEART-DANGLING-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Double heart dangling belly ring.",
@@ -335,7 +335,7 @@
                          "name":  "BELLY RING| DOUBLE JEWELLED CROSS",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/DOUBLE-JEWELLED-CROSS-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Double jewelled cross belly ring.",
@@ -346,7 +346,7 @@
                          "name":  "BELLY RING| HANDCUFFS",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/HANDCUFFS-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Handcuffs design belly ring.",
@@ -357,7 +357,7 @@
                          "name":  "BELLY RING| HEART LOCK",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/HEART-LOCK-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Heart lock belly ring.",
@@ -368,7 +368,7 @@
                          "name":  "BELLY RING| MARIJUANA LEAF",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/MARIJUANA-LEAF-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Marijuana leaf belly ring.",
@@ -379,7 +379,7 @@
                          "name":  "BELLY RING| TINKERBELL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/TINKERBELL-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Tinkerbell design belly ring.",
@@ -390,7 +390,7 @@
                          "name":  "BELLY RING| SPIDER| TRIPLE STERLING SILVER",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/TRIPLE-STERLING-SILVER-SPIDER-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Triple sterling silver spider belly ring.",
@@ -401,7 +401,7 @@
                          "name":  "1.6 X 10 X 5.5 BELLY BAR | STEEL IRIDESCENT",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/1-6-X-10-X-5-8-BELLY-BAR-STEEL-IRIDESCENT.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "1.6 x 10 x 5.5 belly bar made from surgical steel with an iridescent finish. Durable and comfortable for everyday wear.",
@@ -412,7 +412,7 @@
                          "name":  "BELLY RING | ZIP DESIGN",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC JEWELLERY - BELLY/BLUE-JEWELLED-SQUARE-DESIGN-BELLY-RING.png"
+                                        "Assets/images/Belly-Piecing-image.png"
                                     ],
                          "category":  "Belly",
                          "description":  "Stylish belly ring featuring a unique zip design. Crafted for comfort and long-lasting shine.",
@@ -434,7 +434,7 @@
                          "name":  "INDUSTRIAL JEWELLERY | 1.2 X 35 X 4 | STEEL ARROW",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-STEEL-ARROW.png"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
                          "category":  "Industrial",
                          "description":  "Industrial bar with arrow design made from surgical steel. Strong, stylish, and suitable for daily wear.",
@@ -445,7 +445,7 @@
                          "name":  "INDUSTRIAL JEWELLERY | 1.2 X 35 X 4 | SPIRAL GLITTER BALL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-4-INDUSTRIAL-BAR-STEEL-SPIRAL-W-GLITTER-BALL.png"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
                          "category":  "Industrial",
                          "description":  "Steel industrial bar featuring a spiral design with glitter ball accents.",
@@ -456,7 +456,7 @@
                          "name":  "INDUSTRIAL JEWELLERY | 1.2 X 35 X 5 | ZIG ZAG",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-STEEL-ZIG-ZAG-W-GLITTER-BALL.png"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
                          "category":  "Industrial",
                          "description":  "Zig-zag style industrial bar made from durable surgical steel.",
@@ -467,7 +467,7 @@
                          "name":  "INDUSTRIAL JEWELLERY | 1.2 X 35 X 5 | ZIG ZAG GLITTER BALL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-STEEL-ZIG-ZAG-W-GLITTER-BALL.png"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
                          "category":  "Industrial",
                          "description":  "Industrial bar with zig-zag design and glitter ball ends for added shine.",
@@ -478,7 +478,7 @@
                          "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | STRAIGHT BAR BLACK",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-BLACK-ARROW.png"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
                          "category":  "Industrial",
                          "description":  "Black straight industrial bar made from coated surgical steel.",
@@ -489,7 +489,7 @@
                          "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | STRAIGHT BAR GOLD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-35-X-5-INDUSTRIAL-BAR-GOLD-ARROW.png"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
                          "category":  "Industrial",
                          "description":  "Gold PVD coated straight industrial bar for a premium finish.",
@@ -500,7 +500,7 @@
                          "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | JEWELLED PEACE",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-40-X-5-INDUSTRIAL-BAR-STEEL-JEWELLED-PEACE-SIGN.png"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
                          "category":  "Industrial",
                          "description":  "Steel industrial bar featuring a jewelled peace symbol.",
@@ -511,7 +511,7 @@
                          "name":  "INDUSTRIAL JEWELLERY | 1.6 X 35 X 5 | STEEL SNAKE",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-6-X-40-X-5-INDUSTRIAL-BAR-STEEL-SNAKE.png"
+                                        "Assets/images/GC - INDUSTRIAL JEWELERY/1-2-X-38-X-5-INDUSTRIAL-BAR-STEEL-6-STONE-FLOWER.png"
                                     ],
                          "category":  "Industrial",
                          "description":  "Snake-themed industrial bar crafted from surgical steel.",
@@ -533,7 +533,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.2 X 10 | CIRCULAR BAR SCREW",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-2-x-10-CIRCULAR-BAR-SCREW.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Circular bar nipple jewellery with screw ends made from surgical steel.",
@@ -544,7 +544,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 | AQUAMARINE ARROWHEAD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-10-STRAIGHT-BAR-AQUAMARINE-ARROWHEAD.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Straight bar nipple jewellery featuring aquamarine arrowhead ends.",
@@ -555,7 +555,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 | BLUE STONE MANDALA",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/BLUE-STONE-MADALA-NIPPLE-BAR-1-6-X-14.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Mandala-style nipple bar with blue stone detailing.",
@@ -566,7 +566,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 | BLUE STONE ROUND BADGE",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/BLUE-STONE-ROUND-BADGE-NIPPLE-BAR-1-6-X-14.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Round badge nipple bar with blue stone accents.",
@@ -577,7 +577,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 | HEART LOCK",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-10-STRAIGHT-BAR-HEART-LOCK.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Heart lock themed nipple bar made from surgical steel.",
@@ -588,7 +588,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 | PISTOL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-STRAIGHT-BAR-PISTOL.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Pistol design nipple bar crafted from surgical steel.",
@@ -599,7 +599,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 | SILVER GUNS",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-STRAIGHT-BAR-SILVER-GUNS.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Twin silver gun design nipple jewellery with straight bar.",
@@ -610,7 +610,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 11 | TUSCAN",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-11-STRAIGHT-BAR-TUSCAN.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Tuscan inspired straight bar nipple jewellery.",
@@ -621,7 +621,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 5 | GOLD CRYSTAL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-GOLD-CRYSTAL.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Gold crystal straight bar nipple jewellery.",
@@ -632,7 +632,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 5 | STEEL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-STEEL-CLEAR.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Classic surgical steel straight bar nipple jewellery.",
@@ -643,7 +643,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 5 | STEEL CLEAR",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-STEEL-CLEAR.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Clear stone straight bar nipple jewellery made from surgical steel.",
@@ -654,7 +654,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 5 | STEEL PINK",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-STEEL-PINK.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Pink stone straight bar nipple jewellery.",
@@ -665,7 +665,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 8 | MANDALA",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-8-STRAIGHT-BAR-MANDALA.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Mandala design nipple bar with decorative detailing.",
@@ -676,7 +676,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 14 X 8 | ROUND",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/BLUE-STONE-ROUND-BADGE-NIPPLE-BAR-1-6-X-14.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Round end straight bar nipple jewellery.",
@@ -687,7 +687,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 16 X 5 | GOLD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-GOLD-CRYSTAL.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Gold PVD straight bar nipple jewellery.",
@@ -698,7 +698,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 16 X 5 | STEEL",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-14-X-5-STRAIGHT-BAR-STEEL-CLEAR.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Surgical steel straight bar nipple jewellery in longer length.",
@@ -709,7 +709,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 16 X 6 | CRYSTAL EYES HYACINTH",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-16-X-8-STRAIGHT-BAR-SKULL-CRYSTAL-EYES-HYACINTH.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Crystal eyes nipple bar with hyacinth coloured stones.",
@@ -720,7 +720,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 16 X 6 | CRYSTAL PUSH IN",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-x-16-x-6-STRAIGHT-BAR-STEEL-CRYSTAL-PUSH-IN.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Push-in crystal straight bar nipple jewellery.",
@@ -731,7 +731,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 18 | CRYSTAL STUDDED SHIELD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-x-20-x-5-STRAIGHT-BAR-CRYSTAL-STUDDED-SHIELD.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Shield design nipple bar with crystal studded detailing.",
@@ -742,7 +742,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 18 | DOUBLE RING SHIELD",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-21-X-5-STRAIGHT-BAR-DOUBLE-RING-SHIELD.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Double ring shield nipple jewellery with straight bar.",
@@ -753,7 +753,7 @@
                          "name":  "NIPPLE JEWELLERY | 1.6 X 18 | LOVE",
                          "price":  80,
                          "images":  [
-                                        "Assets/images/GC - NIPPLE JEWELLERY/1-6-X-18-STRAIGHT-BAR-LOVE-NIPPLE.png"
+                                        "Assets/images/Nipple-Piercing-img.png"
                                     ],
                          "category":  "Nipple",
                          "description":  "Love themed straight bar nipple jewellery made from surgical steel.",

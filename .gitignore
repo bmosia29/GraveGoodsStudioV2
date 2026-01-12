@@ -1,0 +1,19 @@
+# PowerShell scripts
+*.ps1
+
+# Backup files
+*.bak
+*.bak2
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if using node)
+node_modules/
