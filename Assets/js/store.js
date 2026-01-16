@@ -4,7 +4,7 @@
  */
 
 const CART_KEY = 'graveyard_cart_v1';
-const PRODUCTS_URL = 'Assets/products.json';
+const PRODUCTS_URL = 'Assets/Products.json';
 
 // Cache for products to avoid repeated fetches
 let productsCache = null;
